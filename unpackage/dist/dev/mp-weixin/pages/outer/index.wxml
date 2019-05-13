@@ -1,0 +1,1 @@
+<view class="_section data-v-4c16d74b" bind:__l="__l"><native-bar class="data-v-4c16d74b"></native-bar><stepper value="{{num}}" data-event-opts="{{[['^input',[['__set_model',['$0','num','$event'],['']]]]]}}" bind:input="__e" class="data-v-4c16d74b"></stepper><button type="primary" class="data-v-4c16d74b">你好</button></view>

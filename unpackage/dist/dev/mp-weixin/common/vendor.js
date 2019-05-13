@@ -395,7 +395,7 @@ function getData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -6492,7 +6492,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$mp[vm.mpType];
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -6513,14 +6513,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$mp[vm.mpType];
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$mp[vm.mpType];
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -6589,7 +6589,7 @@ var patch = function(oldVnode, vnode) {
         });
         var diffData = diff(data, mpData);
         if (Object.keys(diffData).length) {
-            if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
                 console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
                     ']差量更新',
                     JSON.stringify(diffData));
@@ -7094,10 +7094,10 @@ createApp(app).$mount();
 
 /***/ }),
 
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar%2Ftabbar-1%2Ftabbar-1\"}":
-/*!***************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar%2Ftabbar-1%2Ftabbar-1"} ***!
-  \***************************************************************************************************/
+/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fouter%2Findex\"}":
+/*!************************************************************************************!*\
+  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fouter%2Findex"} ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7105,16 +7105,16 @@ createApp(app).$mount();
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar/tabbar-1/tabbar-1.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar\\tabbar-1\\tabbar-1.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar.default);
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/outer/index.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\outer\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar%2Ftabbar-2%2Ftabbar-2\"}":
-/*!***************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar%2Ftabbar-2%2Ftabbar-2"} ***!
-  \***************************************************************************************************/
+/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fouter%2Fuser\"}":
+/*!***********************************************************************************!*\
+  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fouter%2Fuser"} ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7122,110 +7122,8 @@ createPage(_tabbar.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar/tabbar-2/tabbar-2.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar\\tabbar-2\\tabbar-2.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar%2Ftabbar-3%2Ftabbar-3\"}":
-/*!***************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar%2Ftabbar-3%2Ftabbar-3"} ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar/tabbar-3/tabbar-3.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar\\tabbar-3\\tabbar-3.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar%2Ftabbar-4%2Ftabbar-4\"}":
-/*!***************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar%2Ftabbar-4%2Ftabbar-4"} ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar/tabbar-4/tabbar-4.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar\\tabbar-4\\tabbar-4.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar%2Ftabbar-5%2Ftabbar-5\"}":
-/*!***************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar%2Ftabbar-5%2Ftabbar-5"} ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar/tabbar-5/tabbar-5.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar\\tabbar-5\\tabbar-5.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar-3-detial%2Ftabbar-3-qa%2Ftabbar-3-qa\"}":
-/*!******************************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar-3-detial%2Ftabbar-3-qa%2Ftabbar-3-qa"} ***!
-  \******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar3Qa = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar-3-detial\\tabbar-3-qa\\tabbar-3-qa.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar3Qa.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar-3-detial%2Ftabbar-3-release%2Ftabbar-3-release\"}":
-/*!****************************************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar-3-detial%2Ftabbar-3-release%2Ftabbar-3-release"} ***!
-  \****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar3Release = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar-3-detial\\tabbar-3-release\\tabbar-3-release.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar3Release.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Ftabbar-3-detial%2Ftabbar-3-video%2Ftabbar-3-video\"}":
-/*!************************************************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Ftabbar-3-detial%2Ftabbar-3-video%2Ftabbar-3-video"} ***!
-  \************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _tabbar3Video = _interopRequireDefault(__webpack_require__(/*! ./pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\tabbar-3-detial\\tabbar-3-video\\tabbar-3-video.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_tabbar3Video.default);
+var _user = _interopRequireDefault(__webpack_require__(/*! ./pages/outer/user.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\outer\\user.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_user.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),

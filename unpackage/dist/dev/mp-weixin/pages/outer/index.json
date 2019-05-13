@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "native-bar": "/components/NativeBar",
+    "stepper": "/components/Stepper",
+    "button": "/components/Button"
+  }
+}
