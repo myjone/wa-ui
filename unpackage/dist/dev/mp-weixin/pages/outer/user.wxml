@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="_section data-v-cd8f283c" bind:__l="__l">这个是用户的</view>
+=======
+<view class="_section data-v-531cab65" bind:__l="__l">这个是用户的</view>
+>>>>>>> fd8c7252715334c4fd66ad3c2bc451e1defddce1

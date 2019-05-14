@@ -16,24 +16,37 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
 var _default =
 {
   props: {
     type: {
       type: String,
-      default: '' } },
+      default: '' },
+
+    loading: {
+      type: Boolean,
+      default: false } },
 
 
   data: function data() {
-    return {};
-
+    return {
+      showSlot: true };
 
   },
+  computed: {
+    classes: function classes() {
+      return ["wa-button", "wa-button-".concat(
+
+      this.type)];
+
+    } },
+
   methods: {},
 
 
   mounted: function mounted() {
-    console.log(this.type);
+
   } };exports.default = _default;
 
 /***/ }),

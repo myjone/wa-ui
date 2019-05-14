@@ -1,1 +1,1 @@
-<view class="_section data-v-7ebdbb43" bind:__l="__l"><view class="{{['data-v-7ebdbb43','wa-button','wa-button-'+type]}}">按钮</view></view>
+<view class="inline data-v-7ebdbb43" bind:__l="__l"><button class="{{['data-v-7ebdbb43',classes]}}"><label class="loading _span data-v-7ebdbb43"></label><block wx:if="{{showSlot}}"><label data-ref="slot" class="_span data-v-7ebdbb43 vue-ref"><slot></slot></label></block></button></view>

@@ -8,7 +8,11 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.6.4",
+<<<<<<< HEAD
 	"appid": "touristappid",
+=======
+	"appid": "wxe2d316819ad0ee6e",
+>>>>>>> fd8c7252715334c4fd66ad3c2bc451e1defddce1
 	"projectname": "wo-ui",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},

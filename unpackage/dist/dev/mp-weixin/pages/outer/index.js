@@ -8,7 +8,23 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var Stepper = function Stepper() {return __webpack_require__.e(/*! import() | components/Stepper */ "components/Stepper").then(__webpack_require__.bind(null, /*! ../../components/Stepper.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Stepper.vue"));};var Button = function Button() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Button.vue"));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var Stepper = function Stepper() {return __webpack_require__.e(/*! import() | components/Stepper */ "components/Stepper").then(__webpack_require__.bind(null, /*! ../../components/Stepper.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Stepper.vue"));};var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Button.vue"));};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -25,7 +41,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   components: {
     NativeBar: NativeBar,
     Stepper: Stepper,
-    Button: Button },
+    WaButton: WaButton },
 
   data: function data() {
     return {

@@ -1,3 +1,18 @@
+/*reset css*/
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+button{
+	line-height:1;
+	border-radius:0;
+	border:none;
+}
+button::after{
+border: none;
+}
+
 body{
 	background-color: #f1f1f1;
 	font-size: 28upx;
@@ -37,6 +52,11 @@ body{
 	--gradualPurple: linear-gradient(45deg, #9000ff, #5e00ff);
 	--gradualPink: linear-gradient(45deg, #ec008c, #6739b6);
 	--gradualBlue: linear-gradient(45deg, #0081ff, #1cbbb4);
+	--primaryColor:#0081ff;
+	--waranColor:#f90;
+	--infoColor:#2db7f5;
+	--successColor:#19be6b;
+	--errorColor:#ed4014;
 }
 page {
 	background-color:rgb(245,245,245);
@@ -44,5 +64,5 @@ page {
 	color: #333;
 	font-family: Helvetica Neue, Helvetica, sans-serif;
 	/* Color 可以自定义相关配色 */
-	--activeColor:#F34F48;  
+	--activeColor:#F34F48;
 }
