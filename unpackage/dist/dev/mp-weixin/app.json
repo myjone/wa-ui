@@ -1,13 +1,14 @@
 {
   "pages": [
     "pages/outer/index",
-    "pages/outer/user"
+    "pages/outer/user",
+    "pages/components/icon"
   ],
   "subPackages": [],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTitleText": "券多多",
-    "navigationStyle": "custom",
+    "navigationStyle": "default",
     "navigationBarTextStyle": "black"
   },
   "usingComponents": {}

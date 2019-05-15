@@ -24,10 +24,6 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.inline.data-v-01616c20 {
-  display: inline-block;
-  font-size: 0;
-}
 .wa-button.data-v-01616c20 {
   display: inline-block;
   padding: 0 28rpx;
@@ -37,7 +33,7 @@
   font-size: 26rpx;
   border-radius: 4rpx;
   border: 1rpx solid #e2e2e2;
-  min-width: 120uuupx;
+  min-width: 120rpx;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -52,8 +48,9 @@
       display: inline-block;
       font-size: 23rpx;
       color: #fff;
-      -webkit-animation: rotate-data-v-01616c20 1.2s linear infinite;
-              animation: rotate-data-v-01616c20 1.2s linear infinite;
+      -webkit-animation: rotate-data-v-01616c20 2s linear infinite;
+              animation: rotate-data-v-01616c20 2s linear infinite;
+      opacity: 1 !important;
 }
 .wa-button.wa-button-true.data-v-01616c20 {
     opacity: .5;

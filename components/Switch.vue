@@ -1,7 +1,6 @@
 <template>
 	<view :class="classes" @tap="change" :style="[{backgroundColor:switchbgColor,height:size+'rpx',padding:size+'rpx'}]">
 		<view class="wa-switch-node" :style="[{width:size+'rpx',height:size+'rpx'}]">
-
 		</view>
 	</view>
 </template>
@@ -25,38 +24,39 @@
 				type: String,
 				default: '#fff'
 			},
-			fontSize:{
-				type:Number,
-				default:60,
-			}
+			fontSize: {
+				type: Number,
+				default: 40,
+			},
 		},
 		data() {
 			return {
 				checked: this.value,
 				switchbgColor: "",
-				size:this.fontSize,
+				size: this.fontSize,
 			}
 		},
 		computed: {
 			classes() {
 				return [
 					`wa-switch`,
-					`wa-switch-${this.checked}`
+					`wa-switch-${this.checked}`,
+					`wa-disabled-${this.disabled}`,
 				]
 			},
 		},
 		methods: {
 			change() {
-				if (this.disabled) {
+				if (this.disabled || this.loading) {
 					return;
 				} else {
 					this.checked = !this.checked;
 					this.$emit('change', this.checked);
 					if (this.checked) {
-					this.switchbgColor = this.activeColor;
-				} else {
-					this.switchbgColor = this.inactiveColor
-				}
+						this.switchbgColor = this.activeColor;
+					} else {
+						this.switchbgColor = this.inactiveColor
+					}
 				}
 			}
 		},
@@ -68,7 +68,7 @@
 				} else {
 					this.switchbgColor = this.inactiveColor
 				}
-			}
+			},
 		},
 		mounted() {
 			if (this.checked) {
@@ -88,8 +88,13 @@
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		position: relative;
 		transition: 0.2s linear;
-		padding-top:0 !important;
-		padding-bottom:0 !important;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+
+		&.wa-disabled-true {
+			opacity: 0.5;
+		}
+
 		.wa-switch-node {
 			top: 0;
 			left: 0;
@@ -99,6 +104,7 @@
 			transition: 0.3s;
 			box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.05);
 			background-color: #fff;
+			overflow: hidden;
 		}
 	}
 

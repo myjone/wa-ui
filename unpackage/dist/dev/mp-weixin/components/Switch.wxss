@@ -35,6 +35,9 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+.wa-switch.wa-disabled-true.data-v-5161a9bc {
+    opacity: 0.5;
+}
 .wa-switch .wa-switch-node.data-v-5161a9bc {
     top: 0;
     left: 0;
@@ -47,6 +50,7 @@
     -webkit-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.05);
             box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.05);
     background-color: #fff;
+    overflow: hidden;
 }
 .wa-switch-true .wa-switch-node.data-v-5161a9bc {
   left: 100%;

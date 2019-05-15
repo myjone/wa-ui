@@ -65,12 +65,7 @@
 		}
 	}
 </script>
-
 <style lang="scss" scoped="scoped">
-	.inline {
-		display: inline-block;
-		font-size: 0;
-	}
 	.wa-button {
 		display: inline-block;
 		padding: 0 28upx;
@@ -80,7 +75,7 @@
 		font-size: 26upx;
 		border-radius: 4upx;
 		border: 1upx solid #e2e2e2;
-		min-width: 120uuupx;
+		min-width: 120upx;
 		transition: 0.2s ease-in-out;
 		margin-right: 10upx;
 		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.015);
@@ -89,7 +84,8 @@
 				display: inline-block;
 				font-size: 23upx;
 				color: #fff;
-				animation: rotate 1.2s linear infinite;
+				animation: rotate 2s linear infinite;
+				opacity:1 !important;
 			}
 
 			margin-right:10upx;
@@ -124,46 +120,38 @@
 		}
 		
 	}
-
 	.wa-button-primary {
 		background: var(--primaryColor) !important;
 		color: #fff;
 		border: 1upx solid var(--primaryColor) !important;
 	}
-
 	.wa-button-danger {
 		background: var(--waranColor) !important;
 		color: #fff;
 		border: 1px solid var(--waranColor) !important;
 	}
-
 	.wa-button-info {
 		background: var(--infoColor) !important;
 		color: #fff;
 		border: 1upx solid var(--infoColor) !important;
 	}
-
 	.wa-button-success {
 		background: var(--successColor) !important;
 		color: #fff;
 		border: 1upx solid var(--successColor) !important;
 	}
-
 	.wa-button-error {
 		background: var(--errorColor) !important;
 		color: #fff;
 		border: 1upx solid var(--errorColor) !important;
 	}
-
 	//按钮点击动画
 	.ripple {
 		position: relative;
 	}
-
 	.ripple:focus {
 		outline: none;
 	}
-
 	.ripple:after {
 		content: "";
 		display: block;
@@ -179,7 +167,6 @@
 		opacity: 0;
 		transition: all .2s ease-in-out;
 	}
-
 	.ripple:active:after {
 		opacity: .3;
 		top: 0;
@@ -188,7 +175,6 @@
 		bottom: 0;
 		transition: 0s;
 	}
-
 	@keyframes rotate {
 		0% {
 			transform: rotate(0);
@@ -198,7 +184,4 @@
 			transform: rotate(360deg);
 		}
 	}
-</style>
-<style>
-
 </style>

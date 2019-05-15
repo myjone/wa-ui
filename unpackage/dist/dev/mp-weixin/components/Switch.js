@@ -105,7 +105,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-//
 var _default =
 {
   props: {
@@ -127,7 +126,7 @@ var _default =
 
     fontSize: {
       type: Number,
-      default: 60 } },
+      default: 40 } },
 
 
   data: function data() {
@@ -141,13 +140,14 @@ var _default =
     classes: function classes() {
       return ["wa-switch", "wa-switch-".concat(
 
-      this.checked)];
+      this.checked), "wa-disabled-".concat(
+      this.disabled)];
 
     } },
 
   methods: {
     change: function change() {
-      if (this.disabled) {
+      if (this.disabled || this.loading) {
         return;
       } else {
         this.checked = !this.checked;

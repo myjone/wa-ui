@@ -4,12 +4,18 @@
 		{
 			"path": "pages/outer/index",
 			"style": {
-				"navigationBarTitleText": ""
+				"navigationBarTitleText": "WAUI"
 			}
 		},{
 			"path": "pages/outer/user",
 			"style": {
 				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/components/icon",
+			"style": {
+				"navigationBarTitleText": "WAUI图标",
 				"enablePullDownRefresh": true
 			}
 		}
@@ -22,7 +28,7 @@
 		},
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"navigationBarTitleText": "券多多",
-		"navigationStyle": "custom",
+		"navigationStyle": "default",
 		"navigationBarTextStyle": "black"
 	},
 	"usingComponts": true,
