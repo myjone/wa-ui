@@ -50,7 +50,7 @@
 		display:inline-block;
 		padding:16upx 28upx;
 		border:1px solid #e2e2e2;
-		font-size:26upx;
+		font-size:28upx;
 		border-radius:4upx;
 		border:1px solid #e2e2e2;
 		min-width:120upx;
