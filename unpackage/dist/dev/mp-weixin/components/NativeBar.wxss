@@ -24,16 +24,16 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.navbar.data-v-221af9fe {
+.navbar.data-v-7b3833fb {
   width: 100%;
   background: #fff;
   background: var(--activeColor);
   color: #fff;
 }
-.fixed.data-v-221af9fe {
+.fixed.data-v-7b3833fb {
   position: fixed;
 }
-.fixed-top.data-v-221af9fe {
+.fixed-top.data-v-7b3833fb {
   left: 0;
   right: 0;
 }

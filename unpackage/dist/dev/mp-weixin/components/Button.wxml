@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <button class="{{['data-v-01616c20',classes]}}" disabled="{{loading}}" bind:__l="__l"><block wx:if="{{loading}}"><text class="loading data-v-01616c20"><text class="iconfont data-v-01616c20"></text></text></block><block wx:if="{{showSlot}}"><text data-ref="slot" class="data-v-01616c20 vue-ref"><slot></slot></text></block></button>
+=======
+<view class="inline data-v-7ebdbb43" bind:__l="__l"><button class="{{['data-v-7ebdbb43',classes]}}"><label class="loading _span data-v-7ebdbb43"></label><block wx:if="{{showSlot}}"><label data-ref="slot" class="_span data-v-7ebdbb43 vue-ref"><slot></slot></label></block></button></view>
+>>>>>>> eb1352891d77a3d24ee905deb1e1e2f83407a880

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "description": "项目配置文件。",
   "packOptions": {
     "ignore": []
@@ -35,4 +36,48 @@
       ]
     }
   }
+=======
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.4",
+<<<<<<< HEAD
+	"appid": "touristappid",
+=======
+	"appid": "wxe2d316819ad0ee6e",
+>>>>>>> fd8c7252715334c4fd66ad3c2bc451e1defddce1
+	"projectname": "wo-ui",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "",
+					"path": "",
+					"query": "",
+					"id": 0
+				}
+			]
+		}
+	}
+>>>>>>> eb1352891d77a3d24ee905deb1e1e2f83407a880
 }
