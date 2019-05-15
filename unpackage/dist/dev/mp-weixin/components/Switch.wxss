@@ -24,8 +24,34 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-WaButton.data-v-628aefb0 {
+.wa-switch.data-v-5161a9bc {
   display: inline-block;
-  font-size: 0;
+  border-radius: 60rpx;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.wa-switch .wa-switch-node.data-v-5161a9bc {
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}
+.wa-switch-true .wa-switch-node.data-v-5161a9bc {
+  left: 100%;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 

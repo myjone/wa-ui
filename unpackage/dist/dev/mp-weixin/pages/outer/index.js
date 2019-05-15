@@ -80,7 +80,41 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/NativeBar.vue"));};var Stepper = function Stepper() {return __webpack_require__.e(/*! import() | components/Stepper */ "components/Stepper").then(__webpack_require__.bind(null, /*! ../../components/Stepper.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Stepper.vue"));};var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Button.vue"));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/NativeBar.vue"));};var Stepper = function Stepper() {return __webpack_require__.e(/*! import() | components/Stepper */ "components/Stepper").then(__webpack_require__.bind(null, /*! ../../components/Stepper.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Stepper.vue"));};var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Button.vue"));};var WaSwitch = function WaSwitch() {return __webpack_require__.e(/*! import() | components/Switch */ "components/Switch").then(__webpack_require__.bind(null, /*! ../../components/Switch.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Switch.vue"));};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,15 +147,24 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   components: {
     NativeBar: NativeBar,
     Stepper: Stepper,
-    WaButton: WaButton },
+    WaButton: WaButton,
+    WaSwitch: WaSwitch },
 
   data: function data() {
     return {
-      num: 9 };
+      num: 9,
+      loading: true,
+      checked: true };
 
   },
-  methods: {},
-
+  methods: {
+    showMe: function showMe(e) {
+      console.log(e);
+    },
+    //switch
+    change: function change(val) {
+      this.checked = val;
+    } },
 
   mounted: function mounted() {
 

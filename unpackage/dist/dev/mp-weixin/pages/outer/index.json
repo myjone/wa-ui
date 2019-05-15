@@ -3,6 +3,7 @@
   "usingComponents": {
     "native-bar": "/components/NativeBar",
     "stepper": "/components/Stepper",
-    "wa-button": "/components/Button"
+    "wa-button": "/components/Button",
+    "wa-switch": "/components/Switch"
   }
 }

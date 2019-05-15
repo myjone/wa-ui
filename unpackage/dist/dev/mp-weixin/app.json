@@ -10,6 +10,5 @@
     "navigationStyle": "custom",
     "navigationBarTextStyle": "black"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

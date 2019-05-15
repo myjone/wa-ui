@@ -39,4 +39,5 @@
 
 <style lang="scss">
   @import "static/css/default.css";
+  @import 'static/css/icon.css'
 </style>
