@@ -24,11 +24,11 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.inline.data-v-7ebdbb43 {
+.inline.data-v-01616c20 {
   display: inline-block;
   font-size: 0;
 }
-.wa-button.data-v-7ebdbb43 {
+.wa-button.data-v-01616c20 {
   display: inline-block;
   padding: 0 28rpx;
   height: 60rpx;
@@ -81,53 +81,28 @@
 .wa-button.wa-button-radius.data-v-01616c20 {
     border-radius: 60rpx;
 }
-<<<<<<< HEAD
 .wa-button-primary.data-v-01616c20 {
   background: var(--primaryColor) !important;
-=======
-.wa-button-primary.data-v-7ebdbb43 {
-  background: var(--primaryColor);
->>>>>>> eb1352891d77a3d24ee905deb1e1e2f83407a880
   color: #fff;
   border: 1rpx solid var(--primaryColor) !important;
 }
-<<<<<<< HEAD
 .wa-button-danger.data-v-01616c20 {
   background: var(--waranColor) !important;
-=======
-.wa-button-danger.data-v-7ebdbb43 {
-  background: var(--waranColor);
->>>>>>> eb1352891d77a3d24ee905deb1e1e2f83407a880
   color: #fff;
   border: 1px solid var(--waranColor) !important;
 }
-<<<<<<< HEAD
 .wa-button-info.data-v-01616c20 {
   background: var(--infoColor) !important;
-=======
-.wa-button-info.data-v-7ebdbb43 {
-  background: var(--infoColor);
->>>>>>> eb1352891d77a3d24ee905deb1e1e2f83407a880
   color: #fff;
   border: 1rpx solid var(--infoColor) !important;
 }
-<<<<<<< HEAD
 .wa-button-success.data-v-01616c20 {
   background: var(--successColor) !important;
-=======
-.wa-button-success.data-v-7ebdbb43 {
-  background: var(--successColor);
->>>>>>> eb1352891d77a3d24ee905deb1e1e2f83407a880
   color: #fff;
   border: 1rpx solid var(--successColor) !important;
 }
-<<<<<<< HEAD
 .wa-button-error.data-v-01616c20 {
   background: var(--errorColor) !important;
-=======
-.wa-button-error.data-v-7ebdbb43 {
-  background: var(--errorColor);
->>>>>>> eb1352891d77a3d24ee905deb1e1e2f83407a880
   color: #fff;
   border: 1rpx solid var(--errorColor) !important;
 }

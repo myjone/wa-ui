@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/* pages/outer/index.wxss */
-=======
 @charset "UTF-8";
 /**
  * 这里是uni-app内置的常用样式变量
@@ -58,4 +55,3 @@
           transform: translateX(-100%);
 }
 
->>>>>>> fd8c7252715334c4fd66ad3c2bc451e1defddce1
