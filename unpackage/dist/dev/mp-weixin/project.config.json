@@ -21,6 +21,10 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"current": -1,
 			"list": []
@@ -29,10 +33,10 @@
 			"current": 0,
 			"list": [
 				{
-					"name": "",
-					"path": "",
-					"query": "",
-					"id": 0
+					"id": -1,
+					"name": "ICON",
+					"pathName": "pages/components/icon",
+					"scene": null
 				}
 			]
 		}

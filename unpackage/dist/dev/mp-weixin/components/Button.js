@@ -17,6 +17,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
 var _default =
 {
   props: {
@@ -26,7 +29,23 @@ var _default =
 
     loading: {
       type: Boolean,
-      default: false } },
+      default: false },
+
+    disabled: {
+      type: Boolean,
+      default: false },
+
+    long: {
+      type: Boolean,
+      default: false },
+
+    size: {
+      type: String,
+      default: 'normal' },
+
+    radius: {
+      type: String,
+      default: 'normal' } },
 
 
   data: function data() {
@@ -36,9 +55,15 @@ var _default =
   },
   computed: {
     classes: function classes() {
-      return ["wa-button", "wa-button-".concat(
+      return ["ripple", "wa-button", "wa-button-".concat(
 
-      this.type)];
+
+      this.type), "wa-button-".concat(
+      this.loading), "wa-button-".concat(
+      this.disabled), "wa-long-".concat(
+      this.long), "wa-button-".concat(
+      this.size), "wa-button-".concat(
+      this.radius)];
 
     } },
 
@@ -46,7 +71,7 @@ var _default =
 
 
   mounted: function mounted() {
-
+    console.log(this.long);
   } };exports.default = _default;
 
 /***/ }),

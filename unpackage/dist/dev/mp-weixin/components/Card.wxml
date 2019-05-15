@@ -1,0 +1,1 @@
+<view class="wa-card data-v-49133a61" bind:__l="__l"><view class="wa-card-title data-v-49133a61"><block wx:if="{{$slots.title}}"><slot name="title"></slot></block><block wx:else>我是标题</block></view><view class="wa-card-body data-v-49133a61"><slot></slot></view></view>
