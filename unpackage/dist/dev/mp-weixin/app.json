@@ -7,10 +7,9 @@
   "subPackages": [],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
-    "navigationBarTitleText": "券多多",
+    "navigationBarTitleText": "WAUI",
     "navigationStyle": "default",
     "navigationBarTextStyle": "black"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }
