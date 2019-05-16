@@ -30,6 +30,11 @@
 				"navigationBarTitleText": "WAUI-SWITCH",
 				"enablePullDownRefresh": true
 			}
+		},{
+			"path": "pages/components/popup",
+			"style": {
+				"navigationBarTitleText": "WAUI-POPUP"
+			}
 		}
 	],
 	"globalStyle": {

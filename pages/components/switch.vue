@@ -59,13 +59,13 @@
 		},
 		methods:{
 			change(){
-				
+				this.checked = !this.checked;
 			}
 		}
 	}
 </script>
 
-<style scoped="scoped" lang="less">
+<style scoped="scoped" lang="scss">
 	.main_wrap {
 		padding: 20upx;
 		box-sizing: border-box;

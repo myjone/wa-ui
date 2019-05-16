@@ -1,0 +1,14 @@
+.main_wrap.data-v-00570536 {
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.marginBotomButtonWrap .wa-button {
+	margin-bottom: 20rpx;
+}
+.main_wrap .wa-card{
+	margin-bottom:20rpx;
+}
+

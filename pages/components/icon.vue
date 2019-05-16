@@ -12,7 +12,7 @@
 		<view class="item_wrap">
 			<view class="item" v-for="(item,index) in icon" :key="index" @click="copyClass(`icon-${item.name}`)">
 				<text class='icon' :class="'icon-' + item.name"></text>
-				<view class="icon-text">{{item.name}}</view>
+				<view class="iconText">{{item.name}}</view>
 			</view>
 		</view>
 	</view>
@@ -88,7 +88,7 @@
 				color: #8799a3;
 			}
 
-			.icon-text {
+			.iconText {
 				font-size: 28upx;
 				line-height: 60upx;
 				color:#aaa;

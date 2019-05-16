@@ -25,7 +25,7 @@
 			</WaCard>
 			<WaCard>
 				<view slot="title">
-					圆角按钮
+					圆角按钮 - radius='radius'
 				</view>
 					<WaCard bgColor="rgb(245,245,245)" class='marginButtonWrap'>
 					<WaButton type="primary" radius='radius'>
@@ -47,7 +47,7 @@
 			</WaCard>
 			<WaCard>
 				<view slot="title">
-					按钮不可点击
+					按钮不可点击 
 				</view>
 					<WaCard bgColor="rgb(245,245,245)" class='marginButtonWrap'>
 					<WaButton type="primary" disabled>
@@ -69,7 +69,7 @@
 			</WaCard>
 			<WaCard>
 				<view slot="title">
-					loading按钮
+					loading按钮 
 				</view>
 					<WaCard bgColor="rgb(245,245,245)" class='marginButtonWrap'>
 					<WaButton type="primary" loading>
@@ -91,7 +91,7 @@
 			</WaCard>
 			<WaCard>
 				<view slot="title">
-					基本按钮-小尺寸
+					基本按钮-小尺寸 size-small
 				</view>
 					<WaCard bgColor="rgb(245,245,245)" class='marginButtonWrap'>
 					<WaButton type="primary" size='small'>
@@ -113,7 +113,7 @@
 			</WaCard>
 			<WaCard>
 				<view slot="title">
-					基本按钮-大尺寸
+					基本按钮-大尺寸 size-large
 				</view>
 					<WaCard bgColor="rgb(245,245,245)" class='marginButtonWrap'>
 					<WaButton type="primary" size='large'>

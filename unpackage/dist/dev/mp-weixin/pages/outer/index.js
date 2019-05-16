@@ -37,6 +37,12 @@
 
 
 
+
+
+
+
+
+
 {
   components: {
     NativeBar: NativeBar,
@@ -124,6 +130,14 @@ var render = function() {
     name: "zhangsan",
     age: 44
   }
+  var a5 = {
+    linkUrl: "/pages/components/popup",
+    isBar: false
+  }
+  var a6 = {
+    name: "zhangsan",
+    age: 44
+  }
   _vm.$mp.data = Object.assign(
     {},
     {
@@ -132,7 +146,9 @@ var render = function() {
         a1: a1,
         a2: a2,
         a3: a3,
-        a4: a4
+        a4: a4,
+        a5: a5,
+        a6: a6
       }
     }
   )

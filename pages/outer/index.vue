@@ -3,21 +3,27 @@
 		<WaCard>
 			<view slot="title">基础组件</view>
 			<WaItem :linkObj='{linkUrl:"/pages/components/icon",isBar:false}'>
-				<view slot="name">icon图标</view>
+				<view slot="name">图标-Icon</view>
 			</WaItem>
 			<WaItem 
 			:linkObj='{linkUrl:"/pages/components/button",isBar:false}' 
 			:options="{name:'zhangsan',age:44}">
-				<view slot="name">按钮</view>
+				<view slot="name">按钮-Button</view>
 			</WaItem>
 			<WaItem
 				:linkObj='{linkUrl:"/pages/components/switch",isBar:false}' 
 				:options="{name:'zhangsan',age:44}"
 			>
-				<view slot="name">Switch</view>
+				<view slot="name">开关-Switch</view>
+			</WaItem>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/popup",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">弹窗-Popup</view>
 			</WaItem>
 		</WaCard>
-		<Stepper v-model="num" />
+		<!-- <Stepper v-model="num" /> -->
 	</section>
 </template>
 <script>

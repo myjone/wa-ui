@@ -1,42 +1,4 @@
 {
-<<<<<<< HEAD
-  "description": "项目配置文件。",
-  "packOptions": {
-    "ignore": []
-  },
-  "setting": {
-    "urlCheck": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.6.4",
-  "appid": "touristappid",
-  "projectname": "wo-ui",
-  "condition": {
-    "search": {
-      "current": -1,
-      "list": []
-    },
-    "conversation": {
-      "current": -1,
-      "list": []
-    },
-    "game": {
-      "current": -1,
-      "list": []
-    },
-    "miniprogram": {
-      "current": 0,
-      "list": [
-        {
-          "name": "",
-          "path": "",
-          "query": "",
-          "id": 0
-        }
-      ]
-    }
-  }
-=======
 	"description": "项目配置文件。",
 	"packOptions": {
 		"ignore": []
@@ -66,16 +28,22 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
-					"name": "anniu ",
-					"pathName": "pages/components/button",
+					"name": "弹窗",
+					"pathName": "pages/components/popup",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "弹窗",
+					"pathName": "pages/components/popup",
 					"scene": null
 				}
 			]
 		}
 	}
->>>>>>> 8fca4e1162952f3821bba917e07bfe0e0b3f418b
 }

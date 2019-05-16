@@ -90,11 +90,9 @@
 		transition: 0.2s linear;
 		padding-top: 0 !important;
 		padding-bottom: 0 !important;
-
 		&.wa-disabled-true {
 			opacity: 0.5;
 		}
-
 		.wa-switch-node {
 			top: 0;
 			left: 0;
@@ -107,7 +105,6 @@
 			overflow: hidden;
 		}
 	}
-
 	.wa-switch-true {
 		.wa-switch-node {
 			left: 100%;

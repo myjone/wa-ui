@@ -4,7 +4,8 @@
     "pages/outer/user",
     "pages/components/icon",
     "pages/components/button",
-    "pages/components/switch"
+    "pages/components/switch",
+    "pages/components/popup"
   ],
   "subPackages": [],
   "window": {

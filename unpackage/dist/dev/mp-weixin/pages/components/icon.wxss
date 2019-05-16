@@ -68,7 +68,7 @@
       font-size: 40rpx;
       color: #8799a3;
 }
-.item_wrap .item .icon-text.data-v-d9d5a742 {
+.item_wrap .item .iconText.data-v-d9d5a742 {
       font-size: 28rpx;
       line-height: 60rpx;
       color: #aaa;
