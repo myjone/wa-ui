@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['nativeUrl',['$event']]]]]}}" class="wa-item data-v-2a64c501" bindtap="__e" bind:__l="__l"><view class="title data-v-2a64c501"><block wx:if="{{$slots.name}}"><slot name="name"></slot></block><block wx:else>这个是列表的标题</block><view class="right data-v-2a64c501"><text class="icon-right data-v-2a64c501"></text></view></view></view>

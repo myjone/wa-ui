@@ -152,7 +152,7 @@ var _default =
       this.loading), "wa-button-".concat(
       this.disabled), "wa-long-".concat(
       this.long), "wa-button-".concat(
-      this.size), "wa-button-".concat(
+      this.size), "wa-radius-".concat(
       this.radius)];
 
     } },
@@ -161,7 +161,6 @@ var _default =
 
 
   mounted: function mounted() {
-    console.log(this.long);
   } };exports.default = _default;
 
 /***/ }),

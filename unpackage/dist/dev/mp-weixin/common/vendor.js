@@ -24,6 +24,23 @@ createApp(app).$mount();
 
 /***/ }),
 
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fbutton\"}":
+/*!************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fbutton"} ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _button = _interopRequireDefault(__webpack_require__(/*! ./pages/components/button.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/button.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_button.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Ficon\"}":
 /*!**********************************************************************************!*\
   !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Ficon"} ***!
@@ -37,6 +54,23 @@ createApp(app).$mount();
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _icon = _interopRequireDefault(__webpack_require__(/*! ./pages/components/icon.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/icon.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_icon.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fswitch\"}":
+/*!************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fswitch"} ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _switch = _interopRequireDefault(__webpack_require__(/*! ./pages/components/switch.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/switch.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_switch.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),

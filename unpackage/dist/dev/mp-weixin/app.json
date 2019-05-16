@@ -2,7 +2,9 @@
   "pages": [
     "pages/outer/index",
     "pages/outer/user",
-    "pages/components/icon"
+    "pages/components/icon",
+    "pages/components/button",
+    "pages/components/switch"
   ],
   "subPackages": [],
   "window": {

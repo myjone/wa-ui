@@ -1,0 +1,11 @@
+.main_wrap.data-v-1a3d6d37 {
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.main_wrap .wa-card{
+	margin-bottom:20rpx;
+}
+

@@ -92,6 +92,9 @@ var _default =
     return {};
 
 
+  },
+  onLoad: function onLoad(optios) {
+
   } };exports.default = _default;
 
 /***/ }),
