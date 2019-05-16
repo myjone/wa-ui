@@ -1,7 +1,7 @@
 <template>
-	<view class="wa-card">
-		<view class="wa-card-title">
-			<slot name="title">我是标题</slot>
+	<view class="wa-card" :style="[{backgroundColor:BgColor}]">
+		<view class="wa-card-title" v-show="showTitle">
+			<slot name="title"></slot>
 		</view>
 		<view class="wa-card-body"><slot></slot></view>
 	</view>
@@ -9,10 +9,20 @@
 
 <script>
 	export default{
+		props:{
+			bgColor:{
+				type:String,
+				default:"#fff",
+			}
+		},
 		data(){
 			return{
-				
+				BgColor:this.bgColor,
+				showTitle:false,
 			}
+		},
+		mounted() {
+			this.showTitle = this.$slots.title;
 		}
 	}
 </script>
@@ -28,7 +38,6 @@
 		.wa-card-title{
 			position:relative;
 			width:100%;
-			height:60upx;
 			font-size:30upx;
 			line-height:60upx;
 			color:#333;

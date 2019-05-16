@@ -19,10 +19,20 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 var _default =
 {
+  props: {
+    bgColor: {
+      type: String,
+      default: "#fff" } },
+
+
   data: function data() {
-    return {};
+    return {
+      BgColor: this.bgColor,
+      showTitle: false };
 
-
+  },
+  mounted: function mounted() {
+    this.showTitle = this.$slots.title;
   } };exports.default = _default;
 
 /***/ }),

@@ -8,7 +8,16 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -31,8 +40,25 @@ var _icon = _interopRequireDefault(__webpack_require__(/*! ../../static/json/ico
 //
 //
 //
-var _default = { data: function data() {return { icon: [] };}, methods: {}, mounted: function mounted() {this.icon = _icon.default;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Card.vue"));};var _default = { components: { WaCard: WaCard }, data: function data() {return { icon: [], example: "<text class='icon-favorfill'></text>" };}, methods: { copyClass: function copyClass(name) {uni.setClipboardData({ data: name, success: function success() {wx.showToast({ title: '复制', duration: 1000, mask: true });
+
+        } });
+
+    } },
+
+  mounted: function mounted() {
+    this.icon = _icon.default;
   } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 
 /***/ }),
 

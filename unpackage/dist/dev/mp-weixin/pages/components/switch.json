@@ -1,7 +1,8 @@
 {
-  "navigationBarTitleText": "WAUI图标",
+  "navigationBarTitleText": "WAUI-SWITCH",
   "enablePullDownRefresh": true,
   "usingComponents": {
+    "wa-switch": "/components/Switch",
     "wa-card": "/components/Card"
   }
 }

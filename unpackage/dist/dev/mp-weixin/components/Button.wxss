@@ -26,18 +26,15 @@
 /* 文章场景相关 */
 .wa-button.data-v-7ebdbb43 {
   display: inline-block;
-  padding: 0 28rpx;
   height: 60rpx;
   line-height: 60rpx;
   border: 1rpx solid #e2e2e2;
   font-size: 26rpx;
   border-radius: 4rpx;
   border: 1rpx solid #e2e2e2;
-  min-width: 120rpx;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-  margin-right: 10rpx;
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.015);
           box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.015);
 }
@@ -46,7 +43,7 @@
 }
 .wa-button .loading .iconfont.data-v-7ebdbb43 {
       display: inline-block;
-      font-size: 23rpx;
+      font-size: 30rpx;
       color: #fff;
       -webkit-animation: rotate-data-v-7ebdbb43 2s linear infinite;
               animation: rotate-data-v-7ebdbb43 2s linear infinite;
@@ -64,7 +61,7 @@
     height: 45rpx;
     line-height: 45rpx;
 }
-.wa-button.wa-button-small.wa-button-radius.data-v-7ebdbb43 {
+.wa-button.wa-button-small.wa-radius-radius.data-v-7ebdbb43 {
       border-radius: 45rpx;
 }
 .wa-button.wa-button-large.data-v-7ebdbb43 {
@@ -72,10 +69,10 @@
     line-height: 70rpx;
     padding: 0 38rpx;
 }
-.wa-button.wa-button-large.wa-button-radius.data-v-7ebdbb43 {
+.wa-button.wa-button-large.wa-radius-radius.data-v-7ebdbb43 {
       border-radius: 70rpx;
 }
-.wa-button.wa-button-radius.data-v-7ebdbb43 {
+.wa-button.wa-radius-radius.data-v-7ebdbb43 {
     border-radius: 60rpx;
 }
 .wa-button-primary.data-v-7ebdbb43 {

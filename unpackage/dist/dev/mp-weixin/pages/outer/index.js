@@ -8,61 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var Stepper = function Stepper() {return __webpack_require__.e(/*! import() | components/Stepper */ "components/Stepper").then(__webpack_require__.bind(null, /*! ../../components/Stepper.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Stepper.vue"));};var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Button.vue"));};var WaSwitch = function WaSwitch() {return __webpack_require__.e(/*! import() | components/Switch */ "components/Switch").then(__webpack_require__.bind(null, /*! ../../components/Switch.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Switch.vue"));};var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Card.vue"));};var _default =
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var Stepper = function Stepper() {return __webpack_require__.e(/*! import() | components/Stepper */ "components/Stepper").then(__webpack_require__.bind(null, /*! ../../components/Stepper.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Stepper.vue"));};var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Button.vue"));};var WaSwitch = function WaSwitch() {return __webpack_require__.e(/*! import() | components/Switch */ "components/Switch").then(__webpack_require__.bind(null, /*! ../../components/Switch.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Switch.vue"));};var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Card.vue"));};var WaItem = function WaItem() {return __webpack_require__.e(/*! import() | components/Item */ "components/Item").then(__webpack_require__.bind(null, /*! ../../components/Item.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Item.vue"));};var _default =
 
 
 
@@ -97,7 +43,8 @@
     Stepper: Stepper,
     WaButton: WaButton,
     WaSwitch: WaSwitch,
-    WaCard: WaCard },
+    WaCard: WaCard,
+    WaItem: WaItem },
 
   data: function data() {
     return _defineProperty({
@@ -157,6 +104,38 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  var a0 = {
+    linkUrl: "/pages/components/icon",
+    isBar: false
+  }
+  var a1 = {
+    linkUrl: "/pages/components/button",
+    isBar: false
+  }
+  var a2 = {
+    name: "zhangsan",
+    age: 44
+  }
+  var a3 = {
+    linkUrl: "/pages/components/switch",
+    isBar: false
+  }
+  var a4 = {
+    name: "zhangsan",
+    age: 44
+  }
+  _vm.$mp.data = Object.assign(
+    {},
+    {
+      $root: {
+        a0: a0,
+        a1: a1,
+        a2: a2,
+        a3: a3,
+        a4: a4
+      }
+    }
+  )
 }
 var staticRenderFns = []
 render._withStripped = true

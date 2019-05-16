@@ -5,6 +5,7 @@
     "stepper": "/components/Stepper",
     "wa-button": "/components/Button",
     "wa-switch": "/components/Switch",
-    "wa-card": "/components/Card"
+    "wa-card": "/components/Card",
+    "wa-item": "/components/Item"
   }
 }

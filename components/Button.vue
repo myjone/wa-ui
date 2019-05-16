@@ -1,7 +1,7 @@
 <template>
 		<button :class="classes" :disabled='loading'>
 			<text class='loading' v-if='loading'>
-				<text class="iconfont">&#xe68b;</text>
+				<text class="iconfont icon-icloading"></text>
 			</text>
 			<text v-if="showSlot" ref="slot">
 				<slot></slot>
@@ -53,7 +53,7 @@
 					`wa-button-${this.disabled}`,
 					`wa-long-${this.long}`,
 					`wa-button-${this.size}`,
-					`wa-button-${this.radius}`,
+					`wa-radius-${this.radius}`,
 				]
 			}
 		},
@@ -61,28 +61,24 @@
 
 		},
 		mounted() {
-			console.log(this.long)
 		}
 	}
 </script>
 <style lang="scss" scoped="scoped">
 	.wa-button {
 		display: inline-block;
-		padding: 0 28upx;
 		height:60upx;
 		line-height:60upx;
 		border: 1upx solid #e2e2e2;
 		font-size: 26upx;
 		border-radius: 4upx;
 		border: 1upx solid #e2e2e2;
-		min-width: 120upx;
 		transition: 0.2s ease-in-out;
-		margin-right: 10upx;
 		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.015);
 		.loading {
 			.iconfont {
 				display: inline-block;
-				font-size: 23upx;
+				font-size:30upx;
 				color: #fff;
 				animation: rotate 2s linear infinite;
 				opacity:1 !important;
@@ -102,7 +98,7 @@
 		&.wa-button-small{
 			height:45upx;
 			 line-height:45upx;
-			 &.wa-button-radius{
+			 &.wa-radius-radius{
 				border-radius:45upx;
 			}
 		}
@@ -110,12 +106,12 @@
 			height:70upx;
 			 line-height:70upx;
 			 padding:0 38upx;
-			 &.wa-button-radius{
+			 &.wa-radius-radius{
 				border-radius:70upx;
 			}
 			 
 		}
-		&.wa-button-radius{
+		&.wa-radius-radius{
 			border-radius:60upx;
 		}
 		

@@ -10,6 +10,9 @@
 			return{
 				
 			}
+		},
+		onLoad(optios){
+		
 		}
 	}
 </script>

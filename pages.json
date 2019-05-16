@@ -18,6 +18,18 @@
 				"navigationBarTitleText": "WAUI图标",
 				"enablePullDownRefresh": true
 			}
+		},{
+			"path": "pages/components/button",
+			"style": {
+				"navigationBarTitleText": "WAUI按钮",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/components/switch",
+			"style": {
+				"navigationBarTitleText": "WAUI-SWITCH",
+				"enablePullDownRefresh": true
+			}
 		}
 	],
 	"globalStyle": {
