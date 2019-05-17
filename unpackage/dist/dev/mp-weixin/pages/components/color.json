@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "WAUI-COLOR",
+  "usingComponents": {
+    "wa-card": "/components/Card"
+  }
+}

@@ -5,7 +5,8 @@
     "pages/components/icon",
     "pages/components/button",
     "pages/components/switch",
-    "pages/components/popup"
+    "pages/components/popup",
+    "pages/components/color"
   ],
   "subPackages": [],
   "window": {

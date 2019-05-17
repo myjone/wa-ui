@@ -70,24 +70,30 @@
 
 <style scoped="scoped" lang="scss">
 	.wa-item{
+		position:relative;
 		width:100%;
-		height:80upx;
+		height:100upx;
 		font-size:28upx;
 		color:#666;
 		text-align:left;
 		box-sizing:border-box;
-		border-bottom:1px solid #e2e2e2;
 		position:relative;
-		line-height:80upx;
+		line-height:100upx;
 		.right{
 			position:absolute;
 			right:10upx;
 			top:50%;
 			transform:translateY(-50%);
-			color:#aaa;
+			color:#8799a3;
 		}
-		&:not(:last-child){
-			border-bottom:1px solid #e2e2e2;
+		&::after{
+			content:'';
+			position:absolute;
+			bottom:0;
+			width:100%;
+			height:1px;
+			background:#e2e2e2;
+			transform: scaleY(0.5);
 		}
 	}
 </style>

@@ -22,6 +22,12 @@
 			>
 				<view slot="name">弹窗-Popup</view>
 			</WaItem>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/color",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">色彩-Color</view>
+			</WaItem>
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->
 	</section>

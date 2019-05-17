@@ -35,6 +35,11 @@
 			"style": {
 				"navigationBarTitleText": "WAUI-POPUP"
 			}
+		},{
+			"path": "pages/components/color",
+			"style": {
+				"navigationBarTitleText": "WAUI-COLOR"
+			}
 		}
 	],
 	"globalStyle": {

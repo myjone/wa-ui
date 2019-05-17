@@ -1,9 +1,9 @@
 <template>
 	<section>
-		<view class="mask" v-show="overlay&&isShow" @click.stop="close">
+		<view :class="['mask',`mask-${isShow}`]" v-show="overlay&&isShow" @click.stop="close">
 
 		</view>
-		<div :class="['wa-contain',`wa-contain-${position}`]" v-if='isShow'>
+		<div :class="['wa-contain',`wa-contain-${position}`,`wa-contain-${position}-${isShow}`]">
 			<slot>
 				居中弹窗
 			</slot>
@@ -14,7 +14,7 @@
 <script>
 	export default {
 		props: {
-			value:{
+			value: {
 				type: Boolean,
 				default: false,
 			},
@@ -22,13 +22,13 @@
 				type: String,
 				default: 'center',
 			},
-			overlay:{ //是否显示蒙版
+			overlay: { //是否显示蒙版
 				type: Boolean,
-				default:true,
+				default: true,
 			},
-			overlayCilck:{
-				type:Boolean,
-				default:true,
+			overlayCilck: {
+				type: Boolean,
+				default: true,
 			}
 		},
 		data() {
@@ -36,25 +36,25 @@
 				isShow: this.value,
 			}
 		},
-		methods:{
+		methods: {
 			close() {
-				if(overlayCilck){
+				if (this.overlayCilck) {
 					this.isShow = false;
 					this.value = false;
 					this.$emit('input', false);
-				}else{
+				} else {
 					return;
 				}
-				
+
 			}
 		},
-		watch:{
-			value(newValue){
+		watch: {
+			value(newValue) {
 				this.isShow = newValue;
-			},	
+			},
 		},
-		mounted(){
-			
+		mounted() {
+
 		}
 	}
 </script>
@@ -68,14 +68,27 @@
 		top: 0;
 		left: 0;
 		z-index: 2000;
-		transition:0.2s;
+
+		&.mask-true {
+			animation-name: fade-in;
+			animation-duration: .2s;
+			animation-timing-function: ease-in-out;
+		}
+
+		&.mask-false {
+			animation-name: fade-out;
+			animation-duration: .2s;
+			animation-delay: 0.1s
+		}
 	}
+
 	.wa-contain {
 		position: fixed;
 		animation-timing-function: ease-out;
 		animation-fill-mode: both;
 		z-index: 2002;
-		&.wa-contain-center{
+
+		&.wa-contain-center {
 			top: 40%;
 			left: 50%;
 			min-width: 500upx;
@@ -83,49 +96,89 @@
 			background: #fff;
 			border-radius: 5upx;
 			transform: translate3d(-50%, -50%, 0);
+			transform: scale(0);
+			display: none;
+
 		}
-		&.wa-contain-right{
-			top:0;
-			left:0;
-			width:100%;
-			height:100%;
-			background:#fff;
+
+		&.wa-contain-center-true {
+			display: block;
+			animation-name: fade-in;
+			animation-duration: .2s;
+			animation-timing-function: ease-in-out;
+
+			&.wa-contain-center-false {
+				display: none;
+				animation-name: fade-out;
+				animation-duration: .01s;
+			}
+		}
+
+		&.wa-contain-right {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #fff;
 			animation-name: slide-right;
-			animation-duration: .3s;
-			&.slideDown{
-				animation-name: slideDown;
+			animation-duration: .35s;
+
+			&.wa-contain-right-false {
+				animation-name: slide-right-reduction;
+				animation-timing-function: linear;
 				animation-duration: .3s;
 			}
 		}
-		&.wa-contain-left{
-			top:0;
-			left:0;
-			width:100%;
-			height:100%;
-			background:#fff;
+
+		&.wa-contain-left {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #fff;
 			animation-name: slide-left;
 			animation-duration: .3s;
+
+			&.wa-contain-left-false {
+				animation-name: slide-left-reduction;
+				animation-timing-function: linear;
+				animation-duration: .3s;
+			}
 		}
-		&.wa-contain-bottom{
-			bottom:0;
-			left:0;
-			width:100%;
-			min-height:200upx;
-			background:#fff;
-			animation-name:slide-bottom;
+
+		&.wa-contain-bottom {
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			min-height: 200upx;
+			background: #fff;
+			animation-name: slide-bottom;
 			animation-duration: .35s;
+
+			&.wa-contain-bottom-false {
+				animation-name: slide-bottom-reduction;
+				animation-timing-function: linear;
+				animation-duration: .3s;
+			}
 		}
-		&.wa-contain-top{
-			top:0;
-			left:0;
-			width:100%;
-			height:auto;
-			background:#fff;
-			animation-name:slide-top;
+
+		&.wa-contain-top {
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: #fff;
+			animation-name: slide-top;
 			animation-duration: .35s;
+
+			&.wa-contain-top-false {
+				animation-name: slide-top-reduction;
+				animation-timing-function: linear;
+				animation-duration: .3s;
+			}
 		}
 	}
-	@keyframes slide-right{
+
+	@keyframes slide-right {
 		0% {
 			opacity: 0;
 			transform: translateX(100%)
@@ -136,36 +189,110 @@
 			transform: translateX(0)
 		}
 	}
+
+	@keyframes slide-right-reduction {
+		0% {
+			opacity: 1;
+			transform: translateX(0)
+		}
+
+		100% {
+			opacity: 0;
+			transform: translateX(100%)
+		}
+	}
+
 	@keyframes slide-left {
 		0% {
 			opacity: 0;
 			transform: translateX(-100%)
 		}
-	
+
 		100% {
 			opacity: 1;
 			transform: translateX(0)
 		}
 	}
-	@keyframes slide-bottom{
+
+	@keyframes slide-left-reduction {
 		0% {
-			opacity: 0;
-			bottom:-100%;
-		}
-		100% {
 			opacity: 1;
-			bottom:0;
+			transform: translateX(0)
+		}
+
+		100% {
+			opacity: 0;
+			transform: translateX(-100%)
 		}
 	}
-	@keyframes slide-top{
+
+	@keyframes slide-bottom {
 		0% {
 			opacity: 0;
-			top:-100%;
+			bottom: -100%;
 		}
+
 		100% {
 			opacity: 1;
-			top:0;
+			bottom: 0;
 		}
 	}
-	
+
+	@keyframes slide-bottom-reduction {
+		0% {
+			opacity: 1;
+			bottom: 0;
+		}
+
+		100% {
+			opacity: 0;
+			bottom: -100%;
+		}
+	}
+
+	@keyframes slide-top {
+		0% {
+			opacity: 0;
+			top: -100%;
+		}
+
+		100% {
+			opacity: 1;
+			top: 0;
+		}
+	}
+
+	@keyframes slide-top-reduction {
+		0% {
+			opacity: 1;
+			top: 0;
+		}
+
+		100% {
+			opacity: 0;
+			top: -100%;
+		}
+	}
+
+	@keyframes fade-in {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+			z-index: 2000;
+		}
+	}
+
+	@keyframes fade-out {
+		0% {
+			opacity: 1;
+		}
+
+		100% {
+			opacity: 0;
+			z-index: 0;
+		}
+	}
 </style>
