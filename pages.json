@@ -40,6 +40,11 @@
 			"style": {
 				"navigationBarTitleText": "WAUI-COLOR"
 			}
+		},{
+			"path": "pages/components/notice",
+			"style": {
+				"navigationBarTitleText": "WAUI-COLOR"
+			}
 		}
 	],
 	"globalStyle": {

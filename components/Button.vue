@@ -73,8 +73,10 @@
 		font-size: 26upx;
 		border-radius: 4upx;
 		border: 1upx solid #e2e2e2;
+		background:#fff;
 		transition: 0.2s ease-in-out;
 		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.015);
+		color:#666;
 		.loading {
 			.iconfont {
 				display: inline-block;
@@ -157,7 +159,7 @@
 		right: -10upx;
 		top: -10upx;
 		bottom: -10upx;
-		background-color: #333;
+		background-color: #999;
 		background-repeat: no-repeat;
 		background-position: 100%;
 		opacity: 0;
@@ -171,11 +173,10 @@
 		bottom: 0;
 		transition: 0s;
 	}
-	@keyframes rotate {
+	@keyframes rotate{
 		0% {
 			transform: rotate(0);
 		}
-
 		100% {
 			transform: rotate(360deg);
 		}

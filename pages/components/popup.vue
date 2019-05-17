@@ -49,7 +49,7 @@
 			 	关闭弹窗
 			 </WaButton>
 		</WaPopup>
-		<WaPopup v-model='modalShow1'  :overlay='false'>
+		<WaPopup v-model='modalShow1'  :overlay='true'>
 			 <WaButton type="error" long size='large' @click.native='close'>
 			 	关闭弹窗
 			 </WaButton>

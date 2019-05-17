@@ -102,11 +102,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/Button":1,"components/Card":1,"components/Item":1,"components/NativeBar":1,"components/Stepper":1,"components/Switch":1,"components/Popup":1};
+/******/ 		var cssChunks = {"components/Button":1,"components/Card":1,"components/Item":1,"components/NativeBar":1,"components/Stepper":1,"components/Switch":1,"components/Popup":1,"components/NoticeBar":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/Button":"components/Button","components/Card":"components/Card","components/Item":"components/Item","components/NativeBar":"components/NativeBar","components/Stepper":"components/Stepper","components/Switch":"components/Switch","components/Popup":"components/Popup"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/Button":"components/Button","components/Card":"components/Card","components/Item":"components/Item","components/NativeBar":"components/NativeBar","components/Stepper":"components/Stepper","components/Switch":"components/Switch","components/Popup":"components/Popup","components/NoticeBar":"components/NoticeBar"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

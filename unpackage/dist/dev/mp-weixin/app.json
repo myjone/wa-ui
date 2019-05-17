@@ -6,7 +6,8 @@
     "pages/components/button",
     "pages/components/switch",
     "pages/components/popup",
-    "pages/components/color"
+    "pages/components/color",
+    "pages/components/notice"
   ],
   "subPackages": [],
   "window": {
@@ -15,5 +16,6 @@
     "navigationStyle": "default",
     "navigationBarTextStyle": "black"
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }

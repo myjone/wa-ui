@@ -2,6 +2,12 @@
 	<section class='main_wrap'>
 		<WaCard>
 			<view slot="title">基础组件</view>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/color",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">色彩-Color</view>
+			</WaItem>
 			<WaItem :linkObj='{linkUrl:"/pages/components/icon",isBar:false}'>
 				<view slot="name">图标-Icon</view>
 			</WaItem>
@@ -23,10 +29,10 @@
 				<view slot="name">弹窗-Popup</view>
 			</WaItem>
 			<WaItem
-				:linkObj='{linkUrl:"/pages/components/color",isBar:false}' 
+				:linkObj='{linkUrl:"/pages/components/notice",isBar:false}' 
 				:options="{name:'zhangsan',age:44}"
 			>
-				<view slot="name">色彩-Color</view>
+				<view slot="name">消息通知-Notice</view>
 			</WaItem>
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->

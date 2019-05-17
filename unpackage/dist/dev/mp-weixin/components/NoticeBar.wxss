@@ -24,15 +24,44 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.main_wrap.data-v-4c16d74b {
-  width: 100%;
-  padding: 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.bar.data-v-4c16d74b {
+.wa-notice {
   width: 100%;
   height: 80rpx;
+  background: #cce6ff;
   line-height: 80rpx;
+  color: #0081ff;
+  font-size: 26rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.wa-notice .wa-notice-content {
+    padding: 0 80rpx;
+    white-space: nowrap;
+}
+.wa-notice .wa-icon-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-szie: 30rpx;
+    z-index: 1;
+    background: #cce6ff;
+}
+.wa-notice .wa-icon-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-szie: 30rpx;
+    z-index: 1;
+    background: #cce6ff;
 }
 
