@@ -40,6 +40,27 @@
 			"style": {
 				"navigationBarTitleText": "WAUI-COLOR"
 			}
+		},{
+			"path": "pages/components/notice",
+			"style": {
+				"navigationBarTitleText": "WAUI-COLOR"
+			}
+		},{
+			"path": "pages/components/lazyLoad",
+			"style": {
+				"navigationBarTitleText": "WAUI-LazyLoad"
+			}
+		},
+		{
+				"path": "pages/components/message",
+				"style": {
+					"navigationBarTitleText": "WAUI-Message"
+				}
+		},{
+				"path": "pages/components/select",
+				"style": {
+					"navigationBarTitleText": "WAUI-Message"
+				}
 		}
 	],
 	"globalStyle": {

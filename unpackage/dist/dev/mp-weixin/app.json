@@ -6,7 +6,11 @@
     "pages/components/button",
     "pages/components/switch",
     "pages/components/popup",
-    "pages/components/color"
+    "pages/components/color",
+    "pages/components/notice",
+    "pages/components/lazyLoad",
+    "pages/components/message",
+    "pages/components/select"
   ],
   "subPackages": [],
   "window": {

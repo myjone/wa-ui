@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wa-button.data-v-01616c20 {
+.wa-button.data-v-7ebdbb43 {
   display: inline-block;
   height: 60rpx;
   line-height: 60rpx;
@@ -32,81 +32,83 @@
   font-size: 26rpx;
   border-radius: 4rpx;
   border: 1rpx solid #e2e2e2;
+  background: #fff;
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.015);
           box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.015);
+  color: #666;
 }
-.wa-button .loading.data-v-01616c20 {
+.wa-button .loading.data-v-7ebdbb43 {
     margin-right: 10rpx;
 }
-.wa-button .loading .iconfont.data-v-01616c20 {
+.wa-button .loading .iconfont.data-v-7ebdbb43 {
       display: inline-block;
       font-size: 30rpx;
       color: #fff;
-      -webkit-animation: rotate-data-v-01616c20 2s linear infinite;
-              animation: rotate-data-v-01616c20 2s linear infinite;
+      -webkit-animation: rotate-data-v-7ebdbb43 2s linear infinite;
+              animation: rotate-data-v-7ebdbb43 2s linear infinite;
       opacity: 1 !important;
 }
-.wa-button.wa-button-true.data-v-01616c20 {
+.wa-button.wa-button-true.data-v-7ebdbb43 {
     opacity: .5;
     color: #fff;
 }
-.wa-button.wa-long-true.data-v-01616c20 {
+.wa-button.wa-long-true.data-v-7ebdbb43 {
     width: 100%;
     display: block;
 }
-.wa-button.wa-button-small.data-v-01616c20 {
+.wa-button.wa-button-small.data-v-7ebdbb43 {
     height: 45rpx;
     line-height: 45rpx;
 }
-.wa-button.wa-button-small.wa-radius-radius.data-v-01616c20 {
+.wa-button.wa-button-small.wa-radius-radius.data-v-7ebdbb43 {
       border-radius: 45rpx;
 }
-.wa-button.wa-button-large.data-v-01616c20 {
+.wa-button.wa-button-large.data-v-7ebdbb43 {
     height: 70rpx;
     line-height: 70rpx;
     padding: 0 38rpx;
 }
-.wa-button.wa-button-large.wa-radius-radius.data-v-01616c20 {
+.wa-button.wa-button-large.wa-radius-radius.data-v-7ebdbb43 {
       border-radius: 70rpx;
 }
-.wa-button.wa-radius-radius.data-v-01616c20 {
+.wa-button.wa-radius-radius.data-v-7ebdbb43 {
     border-radius: 60rpx;
 }
-.wa-button-primary.data-v-01616c20 {
+.wa-button-primary.data-v-7ebdbb43 {
   background: var(--primaryColor) !important;
   color: #fff;
   border: 1rpx solid var(--primaryColor) !important;
 }
-.wa-button-danger.data-v-01616c20 {
+.wa-button-danger.data-v-7ebdbb43 {
   background: var(--waranColor) !important;
   color: #fff;
   border: 1px solid var(--waranColor) !important;
 }
-.wa-button-info.data-v-01616c20 {
+.wa-button-info.data-v-7ebdbb43 {
   background: var(--infoColor) !important;
   color: #fff;
   border: 1rpx solid var(--infoColor) !important;
 }
-.wa-button-success.data-v-01616c20 {
+.wa-button-success.data-v-7ebdbb43 {
   background: var(--successColor) !important;
   color: #fff;
   border: 1rpx solid var(--successColor) !important;
 }
-.wa-button-error.data-v-01616c20 {
+.wa-button-error.data-v-7ebdbb43 {
   background: var(--errorColor) !important;
   color: #fff;
   border: 1rpx solid var(--errorColor) !important;
 }
-.ripple.data-v-01616c20 {
+.ripple.data-v-7ebdbb43 {
   position: relative;
 }
-.ripple.data-v-01616c20:focus {
+.ripple.data-v-7ebdbb43:focus {
   outline: none;
 }
-.ripple.data-v-01616c20:after {
+.ripple.data-v-7ebdbb43:after {
   content: "";
   display: block;
   position: absolute;
@@ -115,7 +117,7 @@
   right: -10rpx;
   top: -10rpx;
   bottom: -10rpx;
-  background-color: #333;
+  background-color: #999;
   background-repeat: no-repeat;
   background-position: 100%;
   opacity: 0;
@@ -123,7 +125,7 @@
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-.ripple.data-v-01616c20:active:after {
+.ripple.data-v-7ebdbb43:active:after {
   opacity: .3;
   top: 0;
   left: 0;
@@ -133,7 +135,7 @@
   -o-transition: 0s;
   transition: 0s;
 }
-@-webkit-keyframes rotate-data-v-01616c20 {
+@-webkit-keyframes rotate-data-v-7ebdbb43 {
 0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
@@ -143,7 +145,7 @@
             transform: rotate(360deg);
 }
 }
-@keyframes rotate-data-v-01616c20 {
+@keyframes rotate-data-v-7ebdbb43 {
 0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);

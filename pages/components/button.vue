@@ -6,6 +6,9 @@
 					基本按钮-正常尺寸
 				</view>
 					<WaCard bgColor="rgb(245,245,245)" class='marginButtonWrap'>
+						<WaButton>
+							default
+						</WaButton>
 					<WaButton type="primary">
 						primary
 					</WaButton>

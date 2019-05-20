@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wa-switch.data-v-5161a9bc {
+.wa-switch.data-v-54ab7a45 {
   display: inline-block;
   border-radius: 60rpx;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -35,10 +35,10 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-.wa-switch.wa-disabled-true.data-v-5161a9bc {
+.wa-switch.wa-disabled-true.data-v-54ab7a45 {
     opacity: 0.5;
 }
-.wa-switch .wa-switch-node.data-v-5161a9bc {
+.wa-switch .wa-switch-node.data-v-54ab7a45 {
     top: 0;
     left: 0;
     position: absolute;
@@ -52,7 +52,7 @@
     background-color: #fff;
     overflow: hidden;
 }
-.wa-switch-true .wa-switch-node.data-v-5161a9bc {
+.wa-switch-true .wa-switch-node.data-v-54ab7a45 {
   left: 100%;
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
