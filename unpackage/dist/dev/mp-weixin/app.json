@@ -7,7 +7,10 @@
     "pages/components/switch",
     "pages/components/popup",
     "pages/components/color",
-    "pages/components/notice"
+    "pages/components/notice",
+    "pages/components/lazyLoad",
+    "pages/components/message",
+    "pages/components/select"
   ],
   "subPackages": [],
   "window": {
@@ -16,6 +19,5 @@
     "navigationStyle": "default",
     "navigationBarTextStyle": "black"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

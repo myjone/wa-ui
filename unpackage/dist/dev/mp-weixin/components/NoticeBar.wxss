@@ -39,6 +39,8 @@
 .wa-notice .wa-notice-content {
     padding: 0 80rpx;
     white-space: nowrap;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
 }
 .wa-notice .wa-icon-wrap {
     position: absolute;
@@ -48,7 +50,7 @@
     height: 80rpx;
     line-height: 80rpx;
     text-align: center;
-    font-szie: 30rpx;
+    font-szie: 50rpx;
     z-index: 1;
     background: #cce6ff;
 }

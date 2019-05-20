@@ -44,7 +44,7 @@
 			}
 		},
 		computed: {
-			classes() {
+			classes(){
 				return [
 					`ripple`,
 					`wa-button`,

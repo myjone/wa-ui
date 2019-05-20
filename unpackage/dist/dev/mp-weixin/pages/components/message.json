@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "WAUI-Message",
+  "usingComponents": {
+    "wa-message": "/components/Message",
+    "wa-button": "/components/Button"
+  }
+}

@@ -154,14 +154,13 @@
 				animation-duration: .3s;
 			}
 		}
-		&.wa-contain-top {
+		&.wa-contain-top{
 			top: 0;
 			left: 0;
 			width: 100%;
 			background: #fff;
 			animation-name: slide-top;
 			animation-duration: .35s;
-
 			&.wa-contain-top-false {
 				animation-name: slide-top-reduction;
 				animation-timing-function: linear;

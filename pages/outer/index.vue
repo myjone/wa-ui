@@ -1,6 +1,32 @@
 <template>
 	<section class='main_wrap'>
 		<WaCard>
+			<view slot="title">基础配置</view>
+			<WaCard bgColor="rgb(245,245,245)" class='mycard'>
+				<view slot='title'>基础色</view>
+				<WaButton type="primary" long size='large'>
+					--primaryColor  #0081ff
+				</WaButton>
+				<WaButton type="danger" size='large' long>
+					--waranColor  #f90
+				</WaButton>
+				<WaButton type="info" size='large' long>
+					--infoColor #2db7f5
+					
+				</WaButton>
+				<WaButton type="success" size='large' long>
+					--successColor #19be6b
+					
+				</WaButton>
+				<WaButton type="error" size='large' long>
+					--errorColor #ed4014
+				</WaButton>
+			</WaCard>
+			<WaCard bgColor="rgb(245,245,245)">
+				<view slot='title'>字体大小</view>
+			</WaCard>
+		</WaCard>
+		<WaCard>
 			<view slot="title">基础组件</view>
 			<WaItem
 				:linkObj='{linkUrl:"/pages/components/color",isBar:false}' 
@@ -33,6 +59,18 @@
 				:options="{name:'zhangsan',age:44}"
 			>
 				<view slot="name">消息通知-Notice</view>
+			</WaItem>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/message",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">消息通知-Message</view>
+			</WaItem>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/select",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">选择-Select</view>
 			</WaItem>
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->
@@ -95,5 +133,11 @@
 		width:100%;
 		height:80upx;
 		line-height:80upx;
+	}
+	
+</style>
+<style>
+	.mycard .wa-button{
+		margin-bottom:30upx;
 	}
 </style>

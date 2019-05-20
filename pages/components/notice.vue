@@ -1,7 +1,7 @@
 <template>
 	<section>
 		<div class="main_wrap">
-			<WaNoticeBar @close='close' title='的标题dfgsdfg dsfgsd fg sdfg sdfg dsfg fds的标题的标题的标题的'>
+			<WaNoticeBar @close='close' title='这个是文字滚动效果的一个特效由于时间来不及必须要现在搞完啊'>
 			</WaNoticeBar>
 		</div>
 	</section>
