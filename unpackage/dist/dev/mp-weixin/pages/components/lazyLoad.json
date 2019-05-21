@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "WAUI-LazyLoad",
-  "usingComponents": {}
+  "usingComponents": {
+    "lazy-load": "/components/lazeLoad"
+  }
 }

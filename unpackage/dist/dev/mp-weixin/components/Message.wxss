@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wa-meaage.data-v-df244874 {
+.wa-meaage.data-v-62404689 {
   position: fixed;
   left: 0;
   width: 100%;
@@ -37,41 +37,41 @@
   color: #fff;
   z-index: 9999;
 }
-.wa-meaage.primary.data-v-df244874 {
+.wa-meaage.primary.data-v-62404689 {
     background: var(--primaryColor);
 }
-.wa-meaage.success.data-v-df244874 {
+.wa-meaage.success.data-v-62404689 {
     background: var(--successColor);
 }
-.wa-meaage.error.data-v-df244874 {
+.wa-meaage.error.data-v-62404689 {
     background: var(--errorColor);
 }
-.wa-meaage.warning.data-v-df244874 {
+.wa-meaage.warning.data-v-62404689 {
     background: var(--waranColor);
 }
-.wa-meaage.info.data-v-df244874 {
+.wa-meaage.info.data-v-62404689 {
     background: var(--infoColor);
 }
-.wa-meaage.wa-meaage-true.data-v-df244874 {
+.wa-meaage.wa-meaage-true.data-v-62404689 {
     top: 0;
-    -webkit-animation-name: slide-top-data-v-df244874;
-            animation-name: slide-top-data-v-df244874;
+    -webkit-animation-name: slide-top-data-v-62404689;
+            animation-name: slide-top-data-v-62404689;
     -webkit-animation-duration: .5s;
             animation-duration: .5s;
 }
-.wa-meaage.wa-meaage-false.data-v-df244874 {
-    -webkit-animation-name: slide-top-reduction-data-v-df244874;
-            animation-name: slide-top-reduction-data-v-df244874;
+.wa-meaage.wa-meaage-false.data-v-62404689 {
+    -webkit-animation-name: slide-top-reduction-data-v-62404689;
+            animation-name: slide-top-reduction-data-v-62404689;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
 }
-.wa-meaage.show.data-v-df244874 {
+.wa-meaage.show.data-v-62404689 {
     top: 0;
 }
-.wa-meaage.hidden.data-v-df244874 {
+.wa-meaage.hidden.data-v-62404689 {
     top: -100%;
 }
-@-webkit-keyframes slide-top-data-v-df244874 {
+@-webkit-keyframes slide-top-data-v-62404689 {
 0% {
     top: -100%;
     opacity: 0;
@@ -81,7 +81,7 @@
     opacity: 1;
 }
 }
-@keyframes slide-top-data-v-df244874 {
+@keyframes slide-top-data-v-62404689 {
 0% {
     top: -100%;
     opacity: 0;
@@ -91,7 +91,7 @@
     opacity: 1;
 }
 }
-@-webkit-keyframes slide-top-reduction-data-v-df244874 {
+@-webkit-keyframes slide-top-reduction-data-v-62404689 {
 0% {
     opacity: 1;
     top: 0;
@@ -101,7 +101,7 @@
     top: -100%;
 }
 }
-@keyframes slide-top-reduction-data-v-df244874 {
+@keyframes slide-top-reduction-data-v-62404689 {
 0% {
     opacity: 1;
     top: 0;

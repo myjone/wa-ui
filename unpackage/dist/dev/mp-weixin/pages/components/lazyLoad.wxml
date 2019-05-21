@@ -1,1 +1,1 @@
-<view class="_section data-v-55853a40" bind:__l="__l"></view>
+<view class="_section" bind:__l="__l"><lazy-load list="{{list}}" windowHeight="{{windowHeight}}" scrollTop="{{scrollTop}}"></lazy-load></view>

@@ -72,6 +72,12 @@
 			>
 				<view slot="name">选择-Select</view>
 			</WaItem>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/lazyLoad",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">图片懒加载</view>
+			</WaItem>
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->
 	</section>
