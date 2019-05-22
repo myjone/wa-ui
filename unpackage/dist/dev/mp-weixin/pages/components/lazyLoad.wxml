@@ -1,1 +1,1 @@
-<view class="_section" bind:__l="__l"><lazy-load list="{{list}}" windowHeight="{{windowHeight}}" scrollTop="{{scrollTop}}"></lazy-load></view>
+<view class="_section" bind:__l="__l"><view class="ul _ul"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="li _li"><lazy-load bind:input="__e" scrollTop="{{scrollTop}}" value="{{item.src}}" data-event-opts="{{[['^input',[['__set_model',['$0','src','$event'],[[['list','',index,'']]]]]]]}}"></lazy-load></view></block></view></view>

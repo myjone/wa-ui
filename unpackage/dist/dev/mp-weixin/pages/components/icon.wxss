@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.item_wrap.data-v-6ee9b288 {
+.item_wrap.data-v-d9d5a742 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -40,7 +40,7 @@
   background: #fff;
   margin: 0 auto;
 }
-.item_wrap .item.data-v-6ee9b288 {
+.item_wrap .item.data-v-d9d5a742 {
     width: 33.3%;
     height: 150rpx;
     text-align: center;
@@ -49,31 +49,31 @@
             box-sizing: border-box;
     padding-top: 30rpx;
 }
-.item_wrap .item ~ .item.data-v-6ee9b288 {
+.item_wrap .item ~ .item.data-v-d9d5a742 {
       border-top: none;
       border-left: none;
 }
-.item_wrap .item.data-v-6ee9b288:first-child {
+.item_wrap .item.data-v-d9d5a742:first-child {
       border-right: 1px solid #e2e2e;
       border-bottom: 1px solid #e2e2e2;
       border-left: 0;
 }
-.item_wrap .item.data-v-6ee9b288:nth-child(2) {
+.item_wrap .item.data-v-d9d5a742:nth-child(2) {
       border-top: 1px solid #e2e2e2;
 }
-.item_wrap .item.data-v-6ee9b288:nth-child(3) {
+.item_wrap .item.data-v-d9d5a742:nth-child(3) {
       border-top: 1px solid #e2e2e2;
 }
-.item_wrap .item .icon.data-v-6ee9b288 {
+.item_wrap .item .icon.data-v-d9d5a742 {
       font-size: 40rpx;
       color: #8799a3;
 }
-.item_wrap .item .iconText.data-v-6ee9b288 {
+.item_wrap .item .iconText.data-v-d9d5a742 {
       font-size: 28rpx;
       line-height: 60rpx;
       color: #aaa;
 }
-.contain.data-v-6ee9b288 {
+.contain.data-v-d9d5a742 {
   width: 100%;
   background: whitesmoke;
   padding: 20rpx;

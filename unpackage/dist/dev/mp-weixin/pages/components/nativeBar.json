@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "WAUI-NativeBar",
+  "usingComponents": {
+    "native-bar": "/components/NativeBar"
+  }
+}

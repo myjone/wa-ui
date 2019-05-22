@@ -78,6 +78,13 @@
 			>
 				<view slot="name">图片懒加载</view>
 			</WaItem>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/nativeBar",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">自定义导航栏</view>
+			</WaItem>
+			
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->
 	</section>

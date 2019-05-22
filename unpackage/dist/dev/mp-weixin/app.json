@@ -10,15 +10,15 @@
     "pages/components/notice",
     "pages/components/lazyLoad",
     "pages/components/message",
-    "pages/components/select"
+    "pages/components/select",
+    "pages/components/nativeBar"
   ],
   "subPackages": [],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTitleText": "WAUI",
-    "navigationStyle": "default",
-    "navigationBarTextStyle": "black"
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

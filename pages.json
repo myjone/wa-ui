@@ -61,6 +61,11 @@
 				"style": {
 					"navigationBarTitleText": "WAUI-Message"
 				}
+		},{
+			"path": "pages/components/nativeBar",
+			"style": {
+				"navigationBarTitleText": "WAUI-NativeBar"
+			}
 		}
 	],
 	"globalStyle": {
@@ -71,8 +76,8 @@
 		},
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"navigationBarTitleText": "WAUI",
-		"navigationStyle": "default",
-		"navigationBarTextStyle": "black"
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
 	},
 	"usingComponts": true,
 	"condition": { //模式配置，仅开发期间生效

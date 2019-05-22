@@ -1,1 +1,1 @@
-<view class="_section data-v-62404689" bind:__l="__l"><view class="{{['data-v-62404689','wa-meaage',type,className,isShow?'show':'hidden']}}">{{''+content+''}}</view></view>
+<view class="_section data-v-df244874" bind:__l="__l"><view class="{{['data-v-df244874','wa-meaage',type,className,isShow?'show':'hidden']}}">{{''+content+''}}</view></view>

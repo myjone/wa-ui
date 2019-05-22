@@ -1,112 +1,68 @@
 <template>
-	<view class="lazy-imagelist">
-		<view class="item" v-for="(item,index) in imageList" :key="index">
-			<image class="image" 
-			:class="{lazy:!item.show}" 
-			:data-index="index" 
-			@load="imageLoad" 
-			:src="item.show?item.src:''"
-			 mode=""></image>
-			<view class="block image placeholder" :class="{loaded:item.loaded}"></view>
-		</view>
+	<view class="wa-lazy-image" :style="[{backgroundColor:bgColor}]">
+		<image mode="widthFix" class="box-image" :src='src'></image>
 	</view>
 </template>
 
 <script>
 	export default {
-		data: function() {
+		data: function(){
 			return {
-				placeholderSrc: '../../static/default.jpg',
-				show: false,
-				imageList:[],
+				bgColor:'',
+				src:'',
 			}
 		},
 		props:{
-			list:{
-				type:Array,
-				default:function(){
-					return [];
-				}
-			},
-			windowHeight:{
-				type:Number,
-				default:0,
+			value:{
+				type:String,
+				default:'',
 			},
 			scrollTop:{
-				type:Number,
+				type:[String,Number],
 				default:0,
 			}
 		},
-		methods: {
+		methods:{
 			load(){
 				let that = this
-				uni.createSelectorQuery().in(this).selectAll('.image').boundingClientRect((images) => {
-					console.log(images)
-					images.forEach((image, index) => {
-						console.log(index)
-						if (image.top <= that.windowHeight) {
-							that.imageList[index].show = true;
-							that.imageList[index].loaded = true
+				uni.createSelectorQuery().in(this).selectAll('.box-image').boundingClientRect((images) => {
+					images.forEach((item,index)=>{
+						if(item.top<uni.getSystemInfoSync().windowHeight){
+							if(this.src == ""){
+								this.src = this.value;
+							}
 						}
 					})
 				}).exec()
 			},
-			imageLoad(e) {
-				this.list[e.target.dataset.index].loaded = true
+			//随机产生背景色
+			getColor(){
+				let r = Math.floor(Math.random()*255);
+				let g = Math.floor(Math.random()*255);
+				let b = Math.floor(Math.random()*255);
+				this.bgColor = 'rgba('+ r +','+ g +','+ b+',0.8)';
 			}
 		},
 		watch:{
-			windowHeight(newvalue){
-				this.windowHeight = newvalue;
-			},
-			scrollTop(){
-				console.log(11)
+			scrollTop(newValue){
 				this.load();
-			},
-			imageList(newList){
-				this.imageList = newList
 			}
 		},
-		mounted() {
-			this.imageList = this.list;
-			let _this = this;
-			setTimeout(function(){
-				_this.load();
-			},5000)
+		mounted(){
+			this.load();
 			
+		},
+		created(){
+			this.getColor();
 		}
 	}
 </script>
 
 <style lang="scss">
-	.lazy-imagelist {
-		display: flex;
-		margin-top: 50upx;
-		flex-wrap: wrap;
-		justify-content: center;
-		.item {
-			width: 40%;
-			padding: 0 5%;
-			height: 240px;
-			position: relative;
-			.block{
-				display: inline-block;
-				width: 90%;
-				height: 90%;
-				background: #ddd;
-			}
-			.image {
-				width: 100%;
-				position: absolute;
-			}
-		}
-		.placeholder {
-			opacity: 1;
-			transition: opacity 0.4s linear;
-		}
-		
-		.loaded {
-			opacity: 0;
-		}
+	.wa-lazy-image{
+		display:inline-block;
+		height:100%;
+		width:100%;
+		background:#fff;
 	}
 </style>

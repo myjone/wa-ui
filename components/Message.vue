@@ -5,7 +5,6 @@
 		</view>
 	</section>
 </template>
-
 <script>
 	export default{
 		data(){
@@ -19,22 +18,22 @@
 		methods:{
 			Timer(){},
 			 showMeaasge(options){
+				 this.Timer && clearTimeout(this.Timer);
 				 if(typeof(options)=='string'){
 					 this.type='primary'
 					 this.content = options
 				 }else{
 					 if(options.type){
-					 	this.type = options.type;
+						this.type = options.type;
 					 }else{
-					 	this.type='primary'
+						this.type='primary'
 					 };
 					 if(options.content){
-					 	this.content = options.content;
+						this.content = options.content;
 					 }
 				 }
 				this.className =  `wa-meaage-true`;
 				this.isShow = true;
-				this.Timer && clearTimeout(this.Timer);
 				let _this = this;
 				this.Timer = setTimeout(() => {
 						_this.close();
@@ -44,12 +43,10 @@
 					this.isShow = false;
 					this.className =  `wa-meaage-false`;
 					this.Timer && clearTimeout(this.Timer);
-			 }
-			 
+			 } 
 		},
 	}
 </script>
-
 <style lang="scss" scoped="scoped">
 	.wa-meaage{
 		position:fixed;

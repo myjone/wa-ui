@@ -54,9 +54,7 @@
 				height:30upx;
 				border-radius:4upx;
 				background:var(--gradualBlue);
-				
 			}
-			
 		}
 		.wa-card-body{
 			width:100%;

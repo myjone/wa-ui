@@ -24,43 +24,17 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.lazy-imagelist {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 50rpx;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.ul {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20rpx;
 }
-.lazy-imagelist .item {
-    width: 40%;
-    padding: 0 5%;
-    height: 240px;
-    position: relative;
-}
-.lazy-imagelist .item .block {
-      display: inline-block;
-      width: 90%;
-      height: 90%;
-      background: #ddd;
-}
-.lazy-imagelist .item .image {
-      width: 100%;
-      position: absolute;
-}
-.lazy-imagelist .placeholder {
-    opacity: 1;
-    -webkit-transition: opacity 0.4s linear;
-    -o-transition: opacity 0.4s linear;
-    transition: opacity 0.4s linear;
-}
-.lazy-imagelist .loaded {
-    opacity: 0;
+.ul .li {
+    width: 100%;
+    border-radius: 20rpx;
+    margin-bottom: 30rpx;
+    background: #e2e2e2;
+    overflow: hidden;
 }
 

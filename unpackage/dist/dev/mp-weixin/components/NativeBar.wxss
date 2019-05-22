@@ -24,17 +24,79 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.navbar.data-v-221af9fe {
+.navbar.data-v-7b3833fb {
+  position: relative;
   width: 100%;
-  background: #fff;
-  background: var(--activeColor);
-  color: #fff;
 }
-.fixed.data-v-221af9fe {
-  position: fixed;
+.cu-bar.data-v-7b3833fb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: bisque;
+  background-size: cover;
 }
-.fixed-top.data-v-221af9fe {
-  left: 0;
-  right: 0;
+.cu-bar.fixed.data-v-7b3833fb {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1024;
+    -webkit-box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
+}
+.cu-bar .backHome.data-v-7b3833fb {
+    float: left;
+    overflow: hidden;
+}
+.cu-bar .backHome .item.data-v-7b3833fb {
+      width: 80rpx;
+      text-align: center;
+      float: left;
+      color: #fff;
+      font-size: 35rpx;
+      position: relative;
+}
+.cu-bar .backHome .item.data-v-7b3833fb:not(:last-child)::after {
+        content: " ";
+        position: absolute;
+        width: 1px;
+        height: 20rpx;
+        background: #fff;
+        top: 50%;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+}
+.cu-bar .action.data-v-7b3833fb {
+    font-size: 32rpx;
+    color: #fff;
+    margin-left: 20rpx;
+    width: 180rpx;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cu-bar .content.data-v-7b3833fb {
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 180rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #fff;
+    font-size: 32rpx;
 }
 

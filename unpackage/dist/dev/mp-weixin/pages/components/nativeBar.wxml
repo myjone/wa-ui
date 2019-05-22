@@ -1,0 +1,1 @@
+<view class="_section data-v-6ee3e7f4" bind:__l="__l"><native-bar isBackHome="{{true}}" bgSrc="http://prwe885o2.bkt.clouddn.com/1558515712%281%29.png" class="data-v-6ee3e7f4" vue-slots="{{['content']}}"><view slot="content" class="data-v-6ee3e7f4">上拉刷新/下拉加载</view></native-bar></view>
