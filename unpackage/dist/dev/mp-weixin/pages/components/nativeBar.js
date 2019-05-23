@@ -47,27 +47,38 @@
       transformY: 0,
       isTrue: false,
       content: '',
-      isShow: false //是否显示文字的
-    };
+      isShow: false, //是否显示文字的
+      loading: false };
+
   },
   methods: {
     //上拉加载
     loadMore: function loadMore() {
+      console.log('loadMore');
+    },
+    refesh: function refesh() {
 
     },
-    //下拉刷新
-    refesh: function refesh() {
-      console.log(111);
-    },
     move: function move(e) {
+      console.log(this.loading);
+      if (this.loading) {
+        return;
+      }
       var touchScroll = (e.changedTouches[0].pageY - this.downY) * 0.5;
-      this.transformY = touchScroll;
-      console.log(this.transformY);
-      if (this.transformY > 50) {
+      if (touchScroll < 0) {
+        return;
+      } else {
+        this.transformY = touchScroll;
+      }
+      if (this.transformY > 100) {
         this.content = '释放刷新';
       }
+
     },
     start: function start(e) {
+      if (this.loading) {
+        return;
+      }
       this.downY = 0;
       this.isTrue = false;
       this.isShow = true;
@@ -86,8 +97,10 @@
     doRefash: function doRefash() {
       var _this = this;
       this.content = '加载中';
+      this.loading = true;
       setTimeout(function () {
         _this.isShow = false;
+        _this.loading = false;
       }, 3000);
 
     } },
