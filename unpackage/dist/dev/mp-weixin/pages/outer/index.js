@@ -106,6 +106,14 @@
 
 
 
+
+
+
+
+
+
+
+
 {
   components: {
     NativeBar: NativeBar,
@@ -260,6 +268,14 @@ var render = function() {
     name: "zhangsan",
     age: 44
   }
+  var a19 = {
+    linkUrl: "/pages/components/input",
+    isBar: false
+  }
+  var a20 = {
+    name: "zhangsan",
+    age: 44
+  }
   _vm.$mp.data = Object.assign(
     {},
     {
@@ -282,7 +298,9 @@ var render = function() {
         a15: a15,
         a16: a16,
         a17: a17,
-        a18: a18
+        a18: a18,
+        a19: a19,
+        a20: a20
       }
     }
   )

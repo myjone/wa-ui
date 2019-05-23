@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "WAUI-Input",
+  "usingComponents": {
+    "native-bar": "/components/NativeBar",
+    "wa-input": "/components/Input"
+  }
+}

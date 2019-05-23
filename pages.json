@@ -64,7 +64,13 @@
 		},{
 			"path": "pages/components/nativeBar",
 			"style": {
-				"navigationBarTitleText": "WAUI-NativeBar"
+				"navigationBarTitleText": "WAUI-NativeBar",
+				"disableScroll":true
+			}
+		},{
+			"path": "pages/components/input",
+			"style": {
+				"navigationBarTitleText": "WAUI-Input"
 			}
 		}
 	],

@@ -84,6 +84,14 @@
 			>
 				<view slot="name">自定义导航栏</view>
 			</WaItem>
+			<WaItem
+				:linkObj='{linkUrl:"/pages/components/input",isBar:false}' 
+				:options="{name:'zhangsan',age:44}"
+			>
+				<view slot="name">输入框</view>
+			</WaItem>
+			
+			
 			
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->

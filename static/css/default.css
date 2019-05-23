@@ -54,10 +54,10 @@ body{
 	--errorColor:#ed4014;
 }
 page {
-	background-color:rgb(245,245,245);
 	font-size: 28upx;
 	color: #333;
 	font-family: Helvetica Neue, Helvetica, sans-serif;
 	/* Color 可以自定义相关配色 */
 	--activeColor:#F34F48;
+	background:rgb(245,245,245);
 }

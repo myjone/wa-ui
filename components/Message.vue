@@ -49,8 +49,6 @@
 </script>
 <style lang="scss" scoped="scoped">
 	.wa-meaage{
-		position:fixed;
-		left:0;
 		width:100%;
 		height:80upx;
 		line-height:80upx;
