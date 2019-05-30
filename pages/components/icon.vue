@@ -1,5 +1,8 @@
 <template>
 	<view>
+		<NativeBar :isback='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+			<text slot='backText'>图标</text>
+		</NativeBar>
 		<WaCard>
 			<view slot="title">
 				用法
@@ -21,9 +24,11 @@
 <script>
 	import ICONJSON from '../../static/json/icon.js';
 	import WaCard from '../../components/Card.vue';
+	import NativeBar from '../../components/NativeBar.vue';
 	export default {
 		components: {
-			WaCard
+			WaCard,
+			NativeBar
 		},
 		data() {
 			return {

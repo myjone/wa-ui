@@ -3,6 +3,7 @@
   "usingComponents": {
     "wa-button": "/components/Button",
     "wa-card": "/components/Card",
-    "wa-popup": "/components/Popup"
+    "wa-popup": "/components/Popup",
+    "native-bar": "/components/NativeBar"
   }
 }

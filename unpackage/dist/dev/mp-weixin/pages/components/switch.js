@@ -8,7 +8,11 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Card.vue"));};var WaSwitch = function WaSwitch() {return __webpack_require__.e(/*! import() | components/Switch */ "components/Switch").then(__webpack_require__.bind(null, /*! ../../components/Switch.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Switch.vue"));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Card.vue"));};var WaSwitch = function WaSwitch() {return __webpack_require__.e(/*! import() | components/Switch */ "components/Switch").then(__webpack_require__.bind(null, /*! ../../components/Switch.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Switch.vue"));};var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var _default =
+
+
+
+
 
 
 
@@ -60,7 +64,8 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 {
   components: {
     WaSwitch: WaSwitch,
-    WaCard: WaCard },
+    WaCard: WaCard,
+    NativeBar: NativeBar },
 
   data: function data() {
     return {

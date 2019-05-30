@@ -3,6 +3,7 @@
   "enablePullDownRefresh": true,
   "usingComponents": {
     "wa-switch": "/components/Switch",
-    "wa-card": "/components/Card"
+    "wa-card": "/components/Card",
+    "native-bar": "/components/NativeBar"
   }
 }

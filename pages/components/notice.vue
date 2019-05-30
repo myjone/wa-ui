@@ -1,20 +1,21 @@
 <template>
 	<section>
-		<div class="main_wrap">
+		<div>
+			<NativeBar :isback='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+				<text slot='backText'>消息通知</text>
+			</NativeBar>
 			<WaNoticeBar @close='close' title='这个是文字滚动效果的一个特效由于时间来不及必须要现在搞完啊'>
 			</WaNoticeBar>
 		</div>
 	</section>
 </template>
 <script>
-	import WaButton from '../../components/Button.vue';
-	import WaCard from '../../components/Card.vue';
 	import WaNoticeBar from '../../components/NoticeBar.vue';
+	import NativeBar from '../../components/NativeBar.vue'
 	export default {
 		components: {
-			WaButton,
-			WaCard,
-			WaNoticeBar
+			WaNoticeBar,
+			NativeBar
 		},
 		data() {
 			return {

@@ -1,5 +1,8 @@
 <template>
 	<section>
+		<NativeBar :isback='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+			<text slot='backText'>按钮</text>
+		</NativeBar>
 		<div class="main_wrap">
 			<WaCard>
 				<view slot="title">
@@ -164,10 +167,12 @@
 <script>
 	import WaButton from '../../components/Button.vue';
 	import WaCard from '../../components/Card.vue';
+	import NativeBar from '../../components/NativeBar.vue';
 	export default {
 		components: {
 			WaButton,
-			WaCard
+			WaCard,
+			NativeBar
 		},
 		data() {
 			return {

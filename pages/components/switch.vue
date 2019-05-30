@@ -1,5 +1,8 @@
 <template>
 	<section>
+		<NativeBar :isback='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+			<text slot='backText'>开关</text>
+		</NativeBar>
 		<div class="main_wrap">
 			<WaCard>
 				<view slot="title">
@@ -47,10 +50,12 @@
 <script>
 	import WaCard from '../../components/Card.vue';
 	import WaSwitch from '../../components/Switch.vue';
+	import NativeBar from '../../components/NativeBar.vue';
 	export default {
 		components: {
 			WaSwitch,
-			WaCard
+			WaCard,
+			NativeBar
 		},
 		data() {
 			return {

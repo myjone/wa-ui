@@ -1,5 +1,8 @@
 <template>
-	<section class="main_wrap">
+	<section>
+		<NativeBar :isback='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+			<text slot='backText'>弹窗</text>
+		</NativeBar>
 		<WaCard>
 			<view slot="title">
 				弹窗
@@ -45,9 +48,9 @@
 		</WaCard>
 		<!-- /*中间弹窗弹窗*/ -->
 		<WaPopup v-model='modalShow' :position='position'>
-			 <WaButton type="error" long size='large' @tap='close'>
-			 	关闭弹窗
-			 </WaButton>
+			 <WaButton type="error" long size='large' @click.native='close'>
+				关闭弹窗
+			</WaButton>
 		</WaPopup>
 		<WaPopup v-model='modalShow1'  :overlay='true'>
 			 <WaButton type="error" long size='large' @click.native='close'>
@@ -66,18 +69,20 @@
 	import WaButton from '../../components/Button.vue';
 	import WaCard from '../../components/Card.vue';
 	import WaPopup from '../../components/Popup.vue';
+	import NativeBar from '../../components/NativeBar.vue';
 	export default {
 		components: {
 			WaButton,
 			WaCard,
-			WaPopup
+			WaPopup,
+			NativeBar
 		},
 		data() {
 			return {
 				modalShow: false,
 				modalShow1:false,
 				modalShow2:false,
-				position:"position",
+				position:"center",
 			}
 		},
 		methods: {

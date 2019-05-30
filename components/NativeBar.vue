@@ -12,7 +12,7 @@
 				</view>
 				<view class="action" @tap="back" v-show='isback'>
 						<text class="icon-back"></text>
-						<slot name="backText">个人中心个人中心个人中心个人中心个人中心</slot>
+						<slot name="backText"></slot>
 				</view>
 				<view class="content" :style="[{top:StatusBar + 'px'}]">
 					<slot name="content"></slot>
@@ -140,6 +140,7 @@
 			overflow:hidden;
 		    text-overflow: ellipsis;
 			white-space: nowrap;
+			align-items:center;
 			
 		}
 		.content{

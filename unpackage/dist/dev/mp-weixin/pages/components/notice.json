@@ -1,8 +1,7 @@
 {
   "navigationBarTitleText": "WAUI-COLOR",
   "usingComponents": {
-    "wa-button": "/components/Button",
-    "wa-card": "/components/Card",
-    "wa-notice-bar": "/components/NoticeBar"
+    "wa-notice-bar": "/components/NoticeBar",
+    "native-bar": "/components/NativeBar"
   }
 }

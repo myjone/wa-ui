@@ -2,6 +2,7 @@
   "navigationBarTitleText": "WAUI图标",
   "enablePullDownRefresh": true,
   "usingComponents": {
-    "wa-card": "/components/Card"
+    "wa-card": "/components/Card",
+    "native-bar": "/components/NativeBar"
   }
 }
