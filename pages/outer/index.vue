@@ -59,9 +59,12 @@
 			<WaItem :linkObj='{linkUrl:"/pages/components/input",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">输入框</view>
 			</WaItem>
-
-
-
+			<WaItem :linkObj='{linkUrl:"/pages/components/juhua",isBar:false}' :options="{name:'zhangsan',age:44}">
+				<view slot="name">菊花</view>
+			</WaItem>
+			<WaItem :linkObj='{linkUrl:"/pages/components/fixedMenue",isBar:false}' :options="{name:'zhangsan',age:44}">
+				<view slot="name">固定按钮导航</view>
+			</WaItem>
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->
 	</section>
@@ -92,7 +95,7 @@
 		},
 		methods: {
 			showMe(e) {
-
+				
 			},
 			//switch
 			change(val) {
@@ -107,7 +110,7 @@
 				})
 			}
 		},
-		mounted() {
+		mounted(){
 
 		}
 	}

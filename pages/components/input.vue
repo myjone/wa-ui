@@ -14,6 +14,7 @@
 		<div class="button" @click='showMessage'>
 			数据
 		</div>
+		<div contenteditable="true" class="box"></div>
 	</section>
 </template>
 
@@ -36,7 +37,7 @@
 			showMessage(){
 				console.log(this.value)
 			}
-		}
+		},
 	}
 </script>
 
@@ -48,6 +49,12 @@
 	}
 	page{
 		background:#FFFFFF;
+	}
+	.box{
+		width:400upx;
+		height:120upx;
+		line-height:120upx;
+		border:1px solid #e2e2e2;
 	}
 </style>
 <style>
