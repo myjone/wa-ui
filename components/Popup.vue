@@ -5,7 +5,7 @@
 		</view>
 		<div :class="['wa-contain',`wa-contain-${position}`,`wa-contain-${position}-${isShow}`]">
 			<slot>
-				居中弹窗
+				
 			</slot>
 		</div>
 	</section>
@@ -37,7 +37,7 @@
 			}
 		},
 		methods: {
-			close() {
+			close(){
 				if (this.overlayCilck) {
 					this.isShow = false;
 					this.value = false;
@@ -49,12 +49,14 @@
 			}
 		},
 		watch: {
-			value(newValue) {
+			value(newValue){
 				this.isShow = newValue;
 			},
 		},
 		mounted() {
-
+			if(this.position == " "){
+				this.position = 'center'
+			}
 		}
 	}
 </script>

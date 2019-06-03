@@ -98,7 +98,15 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var WaMessage = function WaMessage() {return __webpack_require__.e(/*! import() | components/Message */ "components/Message").then(__webpack_require__.bind(null, /*! ../../components/Message.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Message.vue"));};var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Button.vue"));};var _default =
+=======
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var WaMessage = function WaMessage() {return __webpack_require__.e(/*! import() | components/Message */ "components/Message").then(__webpack_require__.bind(null, /*! ../../components/Message.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Message.vue"));};var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Button.vue"));};var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var _default =
+
+
+
+
+>>>>>>> b800abc4ada46de7033c639afc9343e6420907c4
 
 
 
@@ -115,7 +123,8 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 {
   components: {
     WaMessage: WaMessage,
-    WaButton: WaButton },
+    WaButton: WaButton,
+    NativeBar: NativeBar },
 
   data: function data() {
     return {};

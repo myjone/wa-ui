@@ -156,10 +156,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
 var _color = __webpack_require__(/*! ../../static/json/color.js */ "../../../../../../Users/mac/Desktop/mall/wa-ui/static/json/color.js");var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/components/Card.vue"));};var _default =
+=======
+
+
+
+
+var _color = __webpack_require__(/*! ../../static/json/color.js */ "D:\\Documents\\HBuilderProjects\\wa-ui\\static\\json\\color.js");var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Card.vue"));};var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var _default =
+>>>>>>> b800abc4ada46de7033c639afc9343e6420907c4
 {
   components: {
-    WaCard: WaCard },
+    WaCard: WaCard,
+    NativeBar: NativeBar },
 
   data: function data() {
     return {

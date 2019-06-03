@@ -33,6 +33,12 @@
 page.data-v-04187e97 {
   background: #FFFFFF;
 }
+.box.data-v-ea61a558 {
+  width: 400rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  border: 1px solid #e2e2e2;
+}
 
 
 page{

@@ -8,6 +8,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _button_vue_vue_type_template_id_444fae35_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./button.vue?vue&type=template&id=444fae35&scoped=true& */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/button.vue?vue&type=template&id=444fae35&scoped=true&");
 /* harmony import */ var _button_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./button.vue?vue&type=script&lang=js& */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/button.vue?vue&type=script&lang=js&");
@@ -15,6 +16,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _button_vue_vue_type_style_index_0_id_444fae35_scoped_scoped_lang_less___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./button.vue?vue&type=style&index=0&id=444fae35&scoped=scoped&lang=less& */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/button.vue?vue&type=style&index=0&id=444fae35&scoped=scoped&lang=less&");
 /* harmony import */ var _button_vue_vue_type_style_index_1_lang_css___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./button.vue?vue&type=style&index=1&lang=css& */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/button.vue?vue&type=style&index=1&lang=css&");
 /* harmony import */ var _Applications_HBuilderX_app_Contents_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+=======
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var WaButton = function WaButton() {return __webpack_require__.e(/*! import() | components/Button */ "components/Button").then(__webpack_require__.bind(null, /*! ../../components/Button.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Button.vue"));};var WaCard = function WaCard() {return __webpack_require__.e(/*! import() | components/Card */ "components/Card").then(__webpack_require__.bind(null, /*! ../../components/Card.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\Card.vue"));};var NativeBar = function NativeBar() {return __webpack_require__.e(/*! import() | components/NativeBar */ "components/NativeBar").then(__webpack_require__.bind(null, /*! ../../components/NativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\components\\NativeBar.vue"));};var _default =
+
+
+
+
+>>>>>>> b800abc4ada46de7033c639afc9343e6420907c4
 
 
 
@@ -255,6 +263,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+<<<<<<< HEAD
+=======
+{
+  components: {
+    WaButton: WaButton,
+    WaCard: WaCard,
+    NativeBar: NativeBar },
+>>>>>>> b800abc4ada46de7033c639afc9343e6420907c4
 
 
 

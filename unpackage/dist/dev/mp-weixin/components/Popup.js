@@ -154,7 +154,9 @@ var _default =
     } },
 
   mounted: function mounted() {
-
+    if (this.position == " ") {
+      this.position = 'center';
+    }
   } };exports.default = _default;
 
 /***/ }),

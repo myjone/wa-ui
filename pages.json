@@ -72,6 +72,16 @@
 			"style": {
 				"navigationBarTitleText": "WAUI-Input"
 			}
+		},{
+			"path": "pages/components/juhua",
+			"style": {
+				"navigationBarTitleText": "WAUI-Juhua"
+			}
+		},{
+			"path": "pages/components/fixedMenue",
+			"style": {
+				"navigationBarTitleText": "固定按钮导航"
+			}
 		}
 	],
 	"globalStyle": {

@@ -12,7 +12,9 @@
     "pages/components/message",
     "pages/components/select",
     "pages/components/nativeBar",
-    "pages/components/input"
+    "pages/components/input",
+    "pages/components/juhua",
+    "pages/components/fixedMenue"
   ],
   "subPackages": [],
   "window": {

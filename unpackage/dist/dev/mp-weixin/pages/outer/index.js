@@ -194,34 +194,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
   components: {
     NativeBar: NativeBar,
@@ -353,7 +325,7 @@ var render = function() {
     age: 44
   }
   var a13 = {
-    linkUrl: "/pages/components/select",
+    linkUrl: "/pages/components/lazyLoad",
     isBar: false
   }
   var a14 = {
@@ -361,7 +333,7 @@ var render = function() {
     age: 44
   }
   var a15 = {
-    linkUrl: "/pages/components/lazyLoad",
+    linkUrl: "/pages/components/nativeBar",
     isBar: false
   }
   var a16 = {
@@ -369,7 +341,7 @@ var render = function() {
     age: 44
   }
   var a17 = {
-    linkUrl: "/pages/components/nativeBar",
+    linkUrl: "/pages/components/input",
     isBar: false
   }
   var a18 = {
@@ -377,10 +349,18 @@ var render = function() {
     age: 44
   }
   var a19 = {
-    linkUrl: "/pages/components/input",
+    linkUrl: "/pages/components/juhua",
     isBar: false
   }
   var a20 = {
+    name: "zhangsan",
+    age: 44
+  }
+  var a21 = {
+    linkUrl: "/pages/components/fixedMenue",
+    isBar: false
+  }
+  var a22 = {
     name: "zhangsan",
     age: 44
   }
@@ -408,7 +388,9 @@ var render = function() {
         a17: a17,
         a18: a18,
         a19: a19,
-        a20: a20
+        a20: a20,
+        a21: a21,
+        a22: a22
       }
     }
   )

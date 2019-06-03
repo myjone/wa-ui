@@ -1,5 +1,8 @@
 <template>
 	<section class='wrap'>
+		<NativeBar :isback='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+			<text slot='backText'>消息通知</text>
+		</NativeBar>
 		<WaMessage ref="WaMeaasge"></WaMessage>
 		<WaButton @tap='showMeModal' long type='primary'>默认</WaButton>
 		<WaButton @tap='showMeModal1' long type='warning'>警告</WaButton>
@@ -12,10 +15,12 @@
 <script>
 	import WaMessage from '../../components/Message.vue'
 	import WaButton from '../../components/Button.vue';
+	import NativeBar from '../../components/NativeBar.vue';
 	export default{
 		components:{
 			WaMessage,
-			WaButton
+			WaButton,
+			NativeBar
 		},
 		data(){
 			return{

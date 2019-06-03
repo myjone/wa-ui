@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<NativeBar :isBackHome='true' bgSrc='http://prwe885o2.bkt.clouddn.com/1558515712%281%29.png'>
+		<NativeBar :isBackHome='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
 			<view slot='content'>上拉刷新/下拉加载</view>
 		</NativeBar>
 		<div class="tab">

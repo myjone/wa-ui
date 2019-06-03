@@ -1,22 +1,23 @@
 <template>
-	<section class='main_wrap'>
+	<section>
+		<NativeBar :isBackHome='false' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+			<view slot='content'></view>
+		</NativeBar>
 		<WaCard>
 			<view slot="title">基础配置</view>
 			<WaCard bgColor="rgb(245,245,245)" class='mycard'>
 				<view slot='title'>基础色</view>
 				<WaButton type="primary" long size='large'>
-					--primaryColor  #0081ff
+					--primaryColor #0081ff
 				</WaButton>
 				<WaButton type="danger" size='large' long>
-					--waranColor  #f90
+					--waranColor #f90
 				</WaButton>
 				<WaButton type="info" size='large' long>
 					--infoColor #2db7f5
-					
 				</WaButton>
 				<WaButton type="success" size='large' long>
 					--successColor #19be6b
-					
 				</WaButton>
 				<WaButton type="error" size='large' long>
 					--errorColor #ed4014
@@ -28,71 +29,42 @@
 		</WaCard>
 		<WaCard>
 			<view slot="title">基础组件</view>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/color",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/color",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">色彩-Color</view>
 			</WaItem>
 			<WaItem :linkObj='{linkUrl:"/pages/components/icon",isBar:false}'>
 				<view slot="name">图标-Icon</view>
 			</WaItem>
-			<WaItem 
-			:linkObj='{linkUrl:"/pages/components/button",isBar:false}' 
-			:options="{name:'zhangsan',age:44}">
+			<WaItem :linkObj='{linkUrl:"/pages/components/button",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">按钮-Button</view>
 			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/switch",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/switch",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">开关-Switch</view>
 			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/popup",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/popup",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">弹窗-Popup</view>
 			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/notice",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/notice",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">消息通知-Notice</view>
 			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/message",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/message",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">消息通知-Message</view>
 			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/select",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
-				<view slot="name">选择-Select</view>
-			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/lazyLoad",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/lazyLoad",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">图片懒加载</view>
 			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/nativeBar",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/nativeBar",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">自定义导航栏</view>
 			</WaItem>
-			<WaItem
-				:linkObj='{linkUrl:"/pages/components/input",isBar:false}' 
-				:options="{name:'zhangsan',age:44}"
-			>
+			<WaItem :linkObj='{linkUrl:"/pages/components/input",isBar:false}' :options="{name:'zhangsan',age:44}">
 				<view slot="name">输入框</view>
 			</WaItem>
-			
-			
-			
+			<WaItem :linkObj='{linkUrl:"/pages/components/juhua",isBar:false}' :options="{name:'zhangsan',age:44}">
+				<view slot="name">菊花</view>
+			</WaItem>
+			<WaItem :linkObj='{linkUrl:"/pages/components/fixedMenue",isBar:false}' :options="{name:'zhangsan',age:44}">
+				<view slot="name">固定按钮导航</view>
+			</WaItem>
 		</WaCard>
 		<!-- <Stepper v-model="num" /> -->
 	</section>
@@ -123,7 +95,7 @@
 		},
 		methods: {
 			showMe(e) {
-
+				
 			},
 			//switch
 			change(val) {
@@ -132,33 +104,33 @@
 			loadingFalse() {
 				this.loading = false;
 			},
-			toNative(){
+			toNative() {
 				uni.navigateTo({
-					url:'/pages/components/icon'
+					url: '/pages/components/icon'
 				})
 			}
 		},
-		mounted() {
+		mounted(){
 
 		}
 	}
 </script>
 
 <style scoped="scoped" lang="scss">
-	.main_wrap{
-		width:100%;
-		padding:20upx;
-		box-sizing:border-box;
+	.main_wrap {
+		width: 100%;
+		padding: 20upx;
+		box-sizing: border-box;
 	}
-	.bar{
-		width:100%;
-		height:80upx;
-		line-height:80upx;
+
+	.bar {
+		width: 100%;
+		height: 80upx;
+		line-height: 80upx;
 	}
-	
 </style>
 <style>
-	.mycard .wa-button{
-		margin-bottom:30upx;
+	.mycard .wa-button {
+		margin-bottom: 30upx;
 	}
 </style>

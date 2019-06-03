@@ -1,5 +1,8 @@
 <template>
-	<section class='main-wrap'>
+	<section>
+		<NativeBar :isback='true' bgSrc='http://prwe885o2.bkt.clouddn.com/wechatNative.jpg'>
+			<text slot='backText'>色彩</text>
+		</NativeBar>
 		<WaCard >
 			<view slot="title">靓丽色彩</view>
 			<WaCard bgColor="rgb(245,245,245)" style='padding-bottom:0;'>
@@ -38,10 +41,12 @@
 
 <script>
 	import WaCard from '../../components/Card.vue';
+	import NativeBar from '../../components/NativeBar.vue';
 	import { brightColor,lightColor,gradualColor} from '../../static/json/color.js'
 	export default {
 		components: {
 			WaCard,
+			NativeBar,
 		},
 		data() {
 			return {

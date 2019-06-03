@@ -190,6 +190,11 @@
 
 
 
+
+
+
+
+
 /*修改按钮的默认尺寸*/
 .marginButtonWrap .wa-button{
 	margin-right:10rpx;
