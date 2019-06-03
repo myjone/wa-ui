@@ -3,6 +3,9 @@
 		<NativeBar :isBackHome='true' bgSrc='http://prwe885o2.bkt.clouddn.com/1558515712%281%29.png'>
 			<view slot='content'>上拉刷新/下拉加载</view>
 		</NativeBar>
+		<div class="tab">
+			
+		</div>
 		<scroll-view 
 		 scroll-y = true
 		 @scrolltolower="loadMore" 
@@ -15,7 +18,7 @@
 		 :class="['scrollBar',{scrollFalse:isTrue}]"
 		>
 		<view v-show='isShow' class="headerContent">{{content}}</view>
-		<view class="list" v-for="(item,index) in list">
+		<view class="list" v-for="(item,index) in list"  :key='index'>
 		</view>
 		</scroll-view>
 	</section>
@@ -50,7 +53,6 @@
 				
 			},
 			move(e){
-				console.log(this.loading)
 				if(this.loading){
 					return;
 				}
@@ -60,8 +62,12 @@
 				}else{
 					this.transformY = touchScroll;
 				}
-				if(this.transformY > 100){
+				if(this.transformY > 50){
 					this.content = '释放刷新'
+					
+				}
+				if(this.transformY>30){
+					this.isShow = true;
 				}
 				
 			},
@@ -69,28 +75,37 @@
 				if(this.loading){
 					return;
 				}
-				this.downY = 0;
-				this.isTrue = false;
-				this.isShow = true;
 				this.content = '下拉刷新';
 				this.downY = e.touches[0].pageY;
 			},
 			end(){
-				this.transformY = 0;
-				this.isTrue = true;
-				this.doRefash();
+				if(this.loading){
+					return;
+				}
+				if(this.transformY >50){
+					this.transformY = 0;
+					this.isTrue = true;
+					this.doRefash();
+				}else{
+					this.transformY = 0;
+					this.isTrue = true;
+					this.isShow = false;
+				}
 			},
 			scroll(e){
 				console.log(e)
 			},
 			
 			doRefash(){
+				console.log(11)
 				let _this = this;
 				this.content = '加载中';
 				this.loading = true;
 				setTimeout(function(){
 					_this.isShow = false;
 					_this.loading = false;
+					_this.downY = 0;
+					_this.isTrue = false;
 				},3000)
 				
 			}
@@ -116,12 +131,18 @@
 		height:80upx;
 		line-height:80upx;
 		text-align:center;
+		transition:.2s;
 	}
 	.list{
 		width:100%;
 		height:300upx;
 		margin-bottom:20upx;
 		background:#AAAAAA;
+	}
+	.tab{
+		width:100%;
+		height:40px;
+		background:blue;
 	}
 </style>
 

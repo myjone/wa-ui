@@ -24,14 +24,14 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wa-filed.data-v-504d97c9 {
+.wa-filed.data-v-0a31d74c {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
   margin-bottom: 20rpx;
 }
-.wa-filed .wa-input.data-v-504d97c9 {
+.wa-filed .wa-input.data-v-0a31d74c {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: block;
@@ -46,12 +46,12 @@
     font-size: 28rpx;
     color: #666;
 }
-.wa-filed .wa-input.wa-input-focus.data-v-504d97c9 {
+.wa-filed .wa-input.wa-input-focus.data-v-0a31d74c {
       border-color: var(--primaryColor);
       -webkit-box-shadow: 0 0 0 2px rgba(0, 129, 255, 0.2);
               box-shadow: 0 0 0 2px rgba(0, 129, 255, 0.2);
 }
-.wa-filed .icon.data-v-504d97c9 {
+.wa-filed .icon.data-v-0a31d74c {
     position: absolute;
     right: 10rpx;
     top: 50%;

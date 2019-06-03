@@ -1,5 +1,1288 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
 
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js":
+/*!*********************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../../../Users/mac/Desktop/mall/wa-ui/App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+
+_vue.default.config.productionTip = false;
+
+_App.default.mpType = 'app';
+
+var app = new _vue.default(_objectSpread({},
+_App.default));
+
+createApp(app).$mount();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createApp"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fbutton\"}":
+/*!************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fbutton"} ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _button = _interopRequireDefault(__webpack_require__(/*! ./pages/components/button.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/button.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_button.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fcolor\"}":
+/*!***********************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fcolor"} ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _color = _interopRequireDefault(__webpack_require__(/*! ./pages/components/color.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/color.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_color.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Ficon\"}":
+/*!**********************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Ficon"} ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _icon = _interopRequireDefault(__webpack_require__(/*! ./pages/components/icon.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/icon.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_icon.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Finput\"}":
+/*!***********************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Finput"} ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _input = _interopRequireDefault(__webpack_require__(/*! ./pages/components/input.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/input.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_input.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2FlazyLoad\"}":
+/*!**************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2FlazyLoad"} ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _lazyLoad = _interopRequireDefault(__webpack_require__(/*! ./pages/components/lazyLoad.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/lazyLoad.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_lazyLoad.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fmessage\"}":
+/*!*************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fmessage"} ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _message = _interopRequireDefault(__webpack_require__(/*! ./pages/components/message.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/message.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_message.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2FnativeBar\"}":
+/*!***************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2FnativeBar"} ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _nativeBar = _interopRequireDefault(__webpack_require__(/*! ./pages/components/nativeBar.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/nativeBar.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_nativeBar.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fnotice\"}":
+/*!************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fnotice"} ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _notice = _interopRequireDefault(__webpack_require__(/*! ./pages/components/notice.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/notice.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_notice.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fpopup\"}":
+/*!***********************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fpopup"} ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _popup = _interopRequireDefault(__webpack_require__(/*! ./pages/components/popup.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/popup.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_popup.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fselect\"}":
+/*!************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fselect"} ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _select = _interopRequireDefault(__webpack_require__(/*! ./pages/components/select.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/select.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_select.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fcomponents%2Fswitch\"}":
+/*!************************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fswitch"} ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _switch = _interopRequireDefault(__webpack_require__(/*! ./pages/components/switch.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/components/switch.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_switch.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fouter%2Findex\"}":
+/*!******************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fouter%2Findex"} ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/outer/index.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/outer/index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/main.js?{\"page\":\"pages%2Fouter%2Fuser\"}":
+/*!*****************************************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/main.js?{"page":"pages%2Fouter%2Fuser"} ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _user = _interopRequireDefault(__webpack_require__(/*! ./pages/outer/user.vue */ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages/outer/user.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_user.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/pages.json":
+/*!************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/pages.json ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/static/json/color.js":
+/*!**********************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/static/json/color.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.gradualColor = exports.lightColor = exports.brightColor = void 0;var brightColor = [
+{
+  name: '--red',
+  value: '#e54d42' },
+{
+  name: "--orange",
+  value: "#f37b1d" },
+
+{
+  name: "--yellow",
+  value: "#fbbd08" },
+
+{
+  name: '--olive',
+  value: '#8dc63f' },
+{
+  name: "--green",
+  value: "#39b54a" },
+
+{
+  name: "--cyan",
+  value: "#1cbbb4" },
+
+{
+  name: "--blue",
+  value: "#0081ff" },
+{
+  name: "--purple",
+  value: "#6739b6" },
+{
+  name: "--mauve",
+  value: "#9c26b0" },
+{
+  name: "--pink",
+  value: "#e03997" },
+{
+  name: "--brown",
+  value: "#a5673f" },
+{
+  name: "--grey",
+  value: "#8799a3" },
+
+{
+  name: "--gray",
+  value: "#aaaaaa" },
+{
+  name: "--black",
+  value: "#333333" }];exports.brightColor = brightColor;
+
+
+
+
+var lightColor = [
+{
+  name: '--redLight',
+  value: '#fadbd9' },
+{
+  name: "--orangeLight",
+  value: "#fde6d2" },
+
+{
+  name: "--yellowLight",
+  value: "#fef2ce" },
+{
+  name: '--oliveLight',
+  value: '#e8f4d9' },
+{
+  name: "--greenLight",
+  value: "#d7f0db" },
+
+{
+  name: "--cyanLight",
+  value: "#d2f1f0" },
+{
+  name: '--blueLight',
+  value: '#cce6ff' },
+{
+  name: "--greenLight",
+  value: "#e1d7f0" },
+{
+  name: "--mauveLight",
+  value: "#ebd4ef" },
+{
+  name: '--pinkLight',
+  value: '#f9d7ea' },
+{
+  name: "--brownLight",
+  value: "#ede1d9" },
+{
+  name: "--greyLight",
+  value: "#e7ebed" }];exports.lightColor = lightColor;
+
+
+
+
+var gradualColor = [
+{
+  name: '--gradualRed',
+  value: 'linear-gradient(45deg, #f43f3b, #ec008c)' },
+{
+  name: "--gradualOrange",
+  value: "linear-gradient(45deg, #ff9700, #ed1c24)" },
+{
+  name: "--gradualGreen",
+  value: "linear-gradient(45deg, #39b54a, #8dc63f)" },
+{
+  name: '--gradualPurple',
+  value: 'linear-gradient(45deg, #9000ff, #5e00ff)' },
+{
+  name: "--gradualPink",
+  value: "linear-gradient(45deg, #ec008c, #6739b6)" },
+{
+  name: "--gradualBlue",
+  value: "linear-gradient(45deg, #0081ff, #1cbbb4)" }];exports.gradualColor = gradualColor;
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac/Desktop/mall/wa-ui/static/json/icon.js":
+/*!*********************************************************!*\
+  !*** /Users/mac/Desktop/mall/wa-ui/static/json/icon.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var ICONJSON = [{
+  name: 'appreciate',
+  isShow: true },
+{
+  name: 'check',
+  isShow: true },
+{
+  name: 'close',
+  isShow: true },
+{
+  name: 'edit',
+  isShow: true },
+{
+  name: 'emoji',
+  isShow: true },
+{
+  name: 'favorfill',
+  isShow: true },
+{
+  name: 'favor',
+  isShow: true },
+{
+  name: 'loading',
+  isShow: true },
+{
+  name: 'locationfill',
+  isShow: true },
+{
+  name: 'location',
+  isShow: true },
+{
+  name: 'phone',
+  isShow: true },
+{
+  name: 'roundcheckfill',
+  isShow: true },
+{
+  name: 'roundcheck',
+  isShow: true },
+{
+  name: 'roundclosefill',
+  isShow: true },
+{
+  name: 'roundclose',
+  isShow: true },
+{
+  name: 'roundrightfill',
+  isShow: true },
+{
+  name: 'roundright',
+  isShow: true },
+{
+  name: 'search',
+  isShow: true },
+{
+  name: 'taxi',
+  isShow: true },
+{
+  name: 'timefill',
+  isShow: true },
+{
+  name: 'time',
+  isShow: true },
+{
+  name: 'unfold',
+  isShow: true },
+{
+  name: 'warnfill',
+  isShow: true },
+{
+  name: 'warn',
+  isShow: true },
+{
+  name: 'camerafill',
+  isShow: true },
+{
+  name: 'camera',
+  isShow: true },
+{
+  name: 'commentfill',
+  isShow: true },
+{
+  name: 'comment',
+  isShow: true },
+{
+  name: 'likefill',
+  isShow: true },
+{
+  name: 'like',
+  isShow: true },
+{
+  name: 'notificationfill',
+  isShow: true },
+{
+  name: 'notification',
+  isShow: true },
+{
+  name: 'order',
+  isShow: true },
+{
+  name: 'samefill',
+  isShow: true },
+{
+  name: 'same',
+  isShow: true },
+{
+  name: 'deliver',
+  isShow: true },
+{
+  name: 'evaluate',
+  isShow: true },
+{
+  name: 'pay',
+  isShow: true },
+{
+  name: 'send',
+  isShow: true },
+{
+  name: 'shop',
+  isShow: true },
+{
+  name: 'ticket',
+  isShow: true },
+{
+  name: 'back',
+  isShow: true },
+{
+  name: 'cascades',
+  isShow: true },
+{
+  name: 'discover',
+  isShow: true },
+{
+  name: 'list',
+  isShow: true },
+{
+  name: 'more',
+  isShow: true },
+{
+  name: 'scan',
+  isShow: true },
+{
+  name: 'settings',
+  isShow: true },
+{
+  name: 'questionfill',
+  isShow: true },
+{
+  name: 'question',
+  isShow: true },
+{
+  name: 'shopfill',
+  isShow: true },
+{
+  name: 'form',
+  isShow: true },
+{
+  name: 'pic',
+  isShow: true },
+{
+  name: 'filter',
+  isShow: true },
+{
+  name: 'footprint',
+  isShow: true },
+{
+  name: 'top',
+  isShow: true },
+{
+  name: 'pulldown',
+  isShow: true },
+{
+  name: 'pullup',
+  isShow: true },
+{
+  name: 'right',
+  isShow: true },
+{
+  name: 'refresh',
+  isShow: true },
+{
+  name: 'moreandroid',
+  isShow: true },
+{
+  name: 'deletefill',
+  isShow: true },
+{
+  name: 'refund',
+  isShow: true },
+{
+  name: 'cart',
+  isShow: true },
+{
+  name: 'qrcode',
+  isShow: true },
+{
+  name: 'remind',
+  isShow: true },
+{
+  name: 'delete',
+  isShow: true },
+{
+  name: 'profile',
+  isShow: true },
+{
+  name: 'home',
+  isShow: true },
+{
+  name: 'cartfill',
+  isShow: true },
+{
+  name: 'discoverfill',
+  isShow: true },
+{
+  name: 'homefill',
+  isShow: true },
+{
+  name: 'message',
+  isShow: true },
+{
+  name: 'addressbook',
+  isShow: true },
+{
+  name: 'link',
+  isShow: true },
+{
+  name: 'lock',
+  isShow: true },
+{
+  name: 'unlock',
+  isShow: true },
+{
+  name: 'vip',
+  isShow: true },
+{
+  name: 'weibo',
+  isShow: true },
+{
+  name: 'activity',
+  isShow: true },
+{
+  name: 'friendaddfill',
+  isShow: true },
+{
+  name: 'friendadd',
+  isShow: true },
+{
+  name: 'friendfamous',
+  isShow: true },
+{
+  name: 'friend',
+  isShow: true },
+{
+  name: 'goods',
+  isShow: true },
+{
+  name: 'selection',
+  isShow: true },
+{
+  name: 'explore',
+  isShow: true },
+{
+  name: 'present',
+  isShow: true },
+{
+  name: 'squarecheckfill',
+  isShow: true },
+{
+  name: 'square',
+  isShow: true },
+{
+  name: 'squarecheck',
+  isShow: true },
+{
+  name: 'round',
+  isShow: true },
+{
+  name: 'roundaddfill',
+  isShow: true },
+{
+  name: 'roundadd',
+  isShow: true },
+{
+  name: 'add',
+  isShow: true },
+{
+  name: 'notificationforbidfill',
+  isShow: true },
+{
+  name: 'explorefill',
+  isShow: true },
+{
+  name: 'fold',
+  isShow: true },
+{
+  name: 'game',
+  isShow: true },
+{
+  name: 'redpacket',
+  isShow: true },
+{
+  name: 'selectionfill',
+  isShow: true },
+{
+  name: 'similar',
+  isShow: true },
+{
+  name: 'appreciatefill',
+  isShow: true },
+{
+  name: 'infofill',
+  isShow: true },
+{
+  name: 'info',
+  isShow: true },
+{
+  name: 'forwardfill',
+  isShow: true },
+{
+  name: 'forward',
+  isShow: true },
+{
+  name: 'rechargefill',
+  isShow: true },
+{
+  name: 'recharge',
+  isShow: true },
+{
+  name: 'vipcard',
+  isShow: true },
+{
+  name: 'voice',
+  isShow: true },
+{
+  name: 'voicefill',
+  isShow: true },
+{
+  name: 'friendfavor',
+  isShow: true },
+{
+  name: 'wifi',
+  isShow: true },
+{
+  name: 'share',
+  isShow: true },
+{
+  name: 'wefill',
+  isShow: true },
+{
+  name: 'we',
+  isShow: true },
+{
+  name: 'lightauto',
+  isShow: true },
+{
+  name: 'lightforbid',
+  isShow: true },
+{
+  name: 'lightfill',
+  isShow: true },
+{
+  name: 'camerarotate',
+  isShow: true },
+{
+  name: 'light',
+  isShow: true },
+{
+  name: 'barcode',
+  isShow: true },
+{
+  name: 'flashlightclose',
+  isShow: true },
+{
+  name: 'flashlightopen',
+  isShow: true },
+{
+  name: 'searchlist',
+  isShow: true },
+{
+  name: 'service',
+  isShow: true },
+{
+  name: 'sort',
+  isShow: true },
+{
+  name: 'down',
+  isShow: true },
+{
+  name: 'mobile',
+  isShow: true },
+{
+  name: 'mobilefill',
+  isShow: true },
+{
+  name: 'copy',
+  isShow: true },
+{
+  name: 'countdownfill',
+  isShow: true },
+{
+  name: 'countdown',
+  isShow: true },
+{
+  name: 'noticefill',
+  isShow: true },
+{
+  name: 'notice',
+  isShow: true },
+{
+  name: 'upstagefill',
+  isShow: true },
+{
+  name: 'upstage',
+  isShow: true },
+{
+  name: 'babyfill',
+  isShow: true },
+{
+  name: 'baby',
+  isShow: true },
+{
+  name: 'brandfill',
+  isShow: true },
+{
+  name: 'brand',
+  isShow: true },
+{
+  name: 'choicenessfill',
+  isShow: true },
+{
+  name: 'choiceness',
+  isShow: true },
+{
+  name: 'clothesfill',
+  isShow: true },
+{
+  name: 'clothes',
+  isShow: true },
+{
+  name: 'creativefill',
+  isShow: true },
+{
+  name: 'creative',
+  isShow: true },
+{
+  name: 'female',
+  isShow: true },
+{
+  name: 'keyboard',
+  isShow: true },
+{
+  name: 'male',
+  isShow: true },
+{
+  name: 'newfill',
+  isShow: true },
+{
+  name: 'new',
+  isShow: true },
+{
+  name: 'pullleft',
+  isShow: true },
+{
+  name: 'pullright',
+  isShow: true },
+{
+  name: 'rankfill',
+  isShow: true },
+{
+  name: 'rank',
+  isShow: true },
+{
+  name: 'bad',
+  isShow: true },
+{
+  name: 'cameraadd',
+  isShow: true },
+{
+  name: 'focus',
+  isShow: true },
+{
+  name: 'friendfill',
+  isShow: true },
+{
+  name: 'cameraaddfill',
+  isShow: true },
+{
+  name: 'apps',
+  isShow: true },
+{
+  name: 'paintfill',
+  isShow: true },
+{
+  name: 'paint',
+  isShow: true },
+{
+  name: 'picfill',
+  isShow: true },
+{
+  name: 'refresharrow',
+  isShow: true },
+{
+  name: 'colorlens',
+  isShow: true },
+{
+  name: 'markfill',
+  isShow: true },
+{
+  name: 'mark',
+  isShow: true },
+{
+  name: 'presentfill',
+  isShow: true },
+{
+  name: 'repeal',
+  isShow: true },
+{
+  name: 'album',
+  isShow: true },
+{
+  name: 'peoplefill',
+  isShow: true },
+{
+  name: 'people',
+  isShow: true },
+{
+  name: 'servicefill',
+  isShow: true },
+{
+  name: 'repair',
+  isShow: true },
+{
+  name: 'file',
+  isShow: true },
+{
+  name: 'repairfill',
+  isShow: true },
+{
+  name: 'taoxiaopu',
+  isShow: true },
+{
+  name: 'weixin',
+  isShow: true },
+{
+  name: 'attentionfill',
+  isShow: true },
+{
+  name: 'attention',
+  isShow: true },
+{
+  name: 'commandfill',
+  isShow: true },
+{
+  name: 'command',
+  isShow: true },
+{
+  name: 'communityfill',
+  isShow: true },
+{
+  name: 'community',
+  isShow: true },
+{
+  name: 'read',
+  isShow: true },
+{
+  name: 'calendar',
+  isShow: true },
+{
+  name: 'cut',
+  isShow: true },
+{
+  name: 'magic',
+  isShow: true },
+{
+  name: 'backwardfill',
+  isShow: true },
+{
+  name: 'playfill',
+  isShow: true },
+{
+  name: 'stop',
+  isShow: true },
+{
+  name: 'tagfill',
+  isShow: true },
+{
+  name: 'tag',
+  isShow: true },
+{
+  name: 'group',
+  isShow: true },
+{
+  name: 'all',
+  isShow: true },
+{
+  name: 'backdelete',
+  isShow: true },
+{
+  name: 'hotfill',
+  isShow: true },
+{
+  name: 'hot',
+  isShow: true },
+{
+  name: 'post',
+  isShow: true },
+{
+  name: 'radiobox',
+  isShow: true },
+{
+  name: 'rounddown',
+  isShow: true },
+{
+  name: 'upload',
+  isShow: true },
+{
+  name: 'writefill',
+  isShow: true },
+{
+  name: 'write',
+  isShow: true },
+{
+  name: 'radioboxfill',
+  isShow: true },
+{
+  name: 'punch',
+  isShow: true },
+{
+  name: 'shake',
+  isShow: true },
+{
+  name: 'move',
+  isShow: true },
+{
+  name: 'safe',
+  isShow: true },
+{
+  name: 'activityfill',
+  isShow: true },
+{
+  name: 'crownfill',
+  isShow: true },
+{
+  name: 'crown',
+  isShow: true },
+{
+  name: 'goodsfill',
+  isShow: true },
+{
+  name: 'messagefill',
+  isShow: true },
+{
+  name: 'profilefill',
+  isShow: true },
+{
+  name: 'sound',
+  isShow: true },
+{
+  name: 'sponsorfill',
+  isShow: true },
+{
+  name: 'sponsor',
+  isShow: true },
+{
+  name: 'upblock',
+  isShow: true },
+{
+  name: 'weblock',
+  isShow: true },
+{
+  name: 'weunblock',
+  isShow: true },
+{
+  name: 'my',
+  isShow: true },
+{
+  name: 'myfill',
+  isShow: true },
+{
+  name: 'emojifill',
+  isShow: true },
+{
+  name: 'emojiflashfill',
+  isShow: true },
+{
+  name: 'flashbuyfill',
+  isShow: true },
+{
+  name: 'text',
+  isShow: true },
+{
+  name: 'goodsfavor',
+  isShow: true },
+{
+  name: 'musicfill',
+  isShow: true },
+{
+  name: 'musicforbidfill',
+  isShow: true },
+{
+  name: 'card',
+  isShow: true },
+{
+  name: 'triangledownfill',
+  isShow: true },
+{
+  name: 'triangleupfill',
+  isShow: true },
+{
+  name: 'roundleftfill-copy',
+  isShow: true },
+{
+  name: 'font',
+  isShow: true },
+{
+  name: 'title',
+  isShow: true },
+{
+  name: 'recordfill',
+  isShow: true },
+{
+  name: 'record',
+  isShow: true },
+{
+  name: 'cardboardfill',
+  isShow: true },
+{
+  name: 'cardboard',
+  isShow: true },
+{
+  name: 'formfill',
+  isShow: true },
+{
+  name: 'coin',
+  isShow: true },
+{
+  name: 'cardboardforbid',
+  isShow: true },
+{
+  name: 'circlefill',
+  isShow: true },
+{
+  name: 'circle',
+  isShow: true },
+{
+  name: 'attentionforbid',
+  isShow: true },
+{
+  name: 'attentionforbidfill',
+  isShow: true },
+{
+  name: 'attentionfavorfill',
+  isShow: true },
+{
+  name: 'attentionfavor',
+  isShow: true },
+{
+  name: 'titles',
+  isShow: true },
+{
+  name: 'icloading',
+  isShow: true },
+{
+  name: 'full',
+  isShow: true },
+{
+  name: 'mail',
+  isShow: true },
+{
+  name: 'peoplelist',
+  isShow: true },
+{
+  name: 'goodsnewfill',
+  isShow: true },
+{
+  name: 'goodsnew',
+  isShow: true },
+{
+  name: 'medalfill',
+  isShow: true },
+{
+  name: 'medal',
+  isShow: true },
+{
+  name: 'newsfill',
+  isShow: true },
+{
+  name: 'newshotfill',
+  isShow: true },
+{
+  name: 'newshot',
+  isShow: true },
+{
+  name: 'news',
+  isShow: true },
+{
+  name: 'videofill',
+  isShow: true },
+{
+  name: 'video',
+  isShow: true },
+{
+  name: 'exit',
+  isShow: true },
+{
+  name: 'skinfill',
+  isShow: true },
+{
+  name: 'skin',
+  isShow: true },
+{
+  name: 'moneybagfill',
+  isShow: true },
+{
+  name: 'usefullfill',
+  isShow: true },
+{
+  name: 'usefull',
+  isShow: true },
+{
+  name: 'moneybag',
+  isShow: true },
+{
+  name: 'redpacket_fill',
+  isShow: true },
+{
+  name: 'subscription',
+  isShow: true },
+{
+  name: 'loading1',
+  isShow: true },
+{
+  name: 'github',
+  isShow: true },
+{
+  name: 'global',
+  isShow: true },
+{
+  name: 'settingsfill',
+  isShow: true },
+{
+  name: 'back_android',
+  isShow: true },
+{
+  name: 'expressman',
+  isShow: true },
+{
+  name: 'evaluate_fill',
+  isShow: true },
+{
+  name: 'group_fill',
+  isShow: true },
+{
+  name: 'play_forward_fill',
+  isShow: true },
+{
+  name: 'deliver_fill',
+  isShow: true },
+{
+  name: 'notice_forbid_fill',
+  isShow: true },
+{
+  name: 'fork',
+  isShow: true },
+{
+  name: 'pick',
+  isShow: true },
+{
+  name: 'wenzi',
+  isShow: true },
+{
+  name: 'ellipse',
+  isShow: true },
+{
+  name: 'qr_code',
+  isShow: true },
+{
+  name: 'dianhua',
+  isShow: true },
+{
+  name: 'icon',
+  isShow: true },
+{
+  name: 'loading2',
+  isShow: true },
+{
+  name: 'btn',
+  isShow: true }];var _default =
+
+ICONJSON;exports.default = _default;
+
+/***/ }),
+
 /***/ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js":
 /*!************************************************************!*\
   !*** ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js ***!
@@ -50,7 +1333,7 @@ var camelize = cached(function (str) {
   return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});
 });
 
-var SYNC_API_RE = /subNVue|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;
+var SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;
 
 var CONTEXT_API_RE = /^create|Manager$/;
 
@@ -154,45 +1437,7 @@ function upx2px(number, newDeviceWidth) {
   return number < 0 ? -result : result;
 }
 
-var previewImage = {
-  args: function args(fromArgs) {
-    var currentIndex = parseInt(fromArgs.current);
-    if (isNaN(currentIndex)) {
-      return;
-    }
-    var urls = fromArgs.urls;
-    if (!Array.isArray(urls)) {
-      return;
-    }
-    var len = urls.length;
-    if (!len) {
-      return;
-    }
-    if (currentIndex < 0) {
-      currentIndex = 0;
-    } else if (currentIndex >= len) {
-      currentIndex = len - 1;
-    }
-    if (currentIndex > 0) {
-      fromArgs.current = urls[currentIndex];
-      fromArgs.urls = urls.filter(
-      function (item, index) {return index < currentIndex ? item !== urls[currentIndex] : true;});
-
-    } else {
-      fromArgs.current = urls[0];
-    }
-    return {
-      indicator: false,
-      loop: false };
-
-  } };
-
-
-var protocols = {
-  previewImage: previewImage };
-
-var todos = [];
-var canIUses = [];
+var protocols = {};
 
 var CALLBACKS = ['success', 'fail', 'cancel', 'complete'];
 
@@ -357,7 +1602,8 @@ function initTriggerEvent(mpInstance) {
   };
 }
 
-function initHook(name, options) {
+Page = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var name = 'onLoad';
   var oldHook = options[name];
   if (!oldHook) {
     options[name] = function () {
@@ -369,53 +1615,22 @@ function initHook(name, options) {
       return oldHook.apply(this, args);
     };
   }
-}
-
-Page = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  initHook('onLoad', options);
   return MPPage(options);
 };
 
+var behavior = Behavior({
+  created: function created() {
+    initTriggerEvent(this);
+  } });
+
+
 Component = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  initHook('created', options);
+  (options.behaviors || (options.behaviors = [])).unshift(behavior);
   return MPComponent(options);
 };
 
 var mocks = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__'];
 
-function initPage(pageOptions) {
-  return initComponent(pageOptions);
-}
-
-function initComponent(componentOptions) {
-  return Component(componentOptions);
-}
-
-function initBehavior(options) {
-  return Behavior(options);
-}
-function initRefs(vm) {
-  var mpInstance = vm.$scope;
-  Object.defineProperty(vm, '$refs', {
-    get: function get() {
-      var $refs = {};
-      var components = mpInstance.selectAllComponents('.vue-ref');
-      components.forEach(function (component) {
-        var ref = component.dataset.ref;
-        $refs[ref] = component.$vm || component;
-      });
-      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');
-      forComponents.forEach(function (component) {
-        var ref = component.dataset.ref;
-        if (!$refs[ref]) {
-          $refs[ref] = [];
-        }
-        $refs[ref].push(component.$vm || component);
-      });
-      return $refs;
-    } });
-
-}
 function triggerLink(mpInstance, vueOptions) {
   mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {
     bubbles: true,
@@ -438,9 +1653,9 @@ function handleLink(event) {
   }
 }
 
-function initMocks(vm, mocks$$1) {
+function initMocks(vm, mocks) {
   var mpInstance = vm.$mp[vm.mpType];
-  mocks$$1.forEach(function (mock) {
+  mocks.forEach(function (mock) {
     if (hasOwn(mpInstance, mock)) {
       vm[mock] = mpInstance[mock];
     }
@@ -463,7 +1678,7 @@ function getData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -525,7 +1740,7 @@ function getBehaviors(vueOptions) {
   }
   if (isPlainObject(vueExtends) && vueExtends.props) {
     behaviors.push(
-    initBehavior({
+    Behavior({
       properties: getProperties(vueExtends.props, true) }));
 
 
@@ -534,7 +1749,7 @@ function getBehaviors(vueOptions) {
     vueMixins.forEach(function (vueMixin) {
       if (isPlainObject(vueMixin) && vueMixin.props) {
         behaviors.push(
-        initBehavior({
+        Behavior({
           properties: getProperties(vueMixin.props, true) }));
 
 
@@ -802,6 +2017,29 @@ function handleEvent(event) {var _this = this;
   });
 }
 
+function initRefs(vm) {
+  var mpInstance = vm.$mp[vm.mpType];
+  Object.defineProperty(vm, '$refs', {
+    get: function get() {
+      var $refs = {};
+      var components = mpInstance.selectAllComponents('.vue-ref');
+      components.forEach(function (component) {
+        var ref = component.dataset.ref;
+        $refs[ref] = component.$vm || component;
+      });
+      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');
+      forComponents.forEach(function (component) {
+        var ref = component.dataset.ref;
+        if (!$refs[ref]) {
+          $refs[ref] = [];
+        }
+        $refs[ref].push(component.$vm || component);
+      });
+      return $refs;
+    } });
+
+}
+
 var hooks = [
 'onHide',
 'onError',
@@ -827,27 +2065,24 @@ function initVm(vm) {
 }
 
 function createApp(vm) {
-
+  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin
   _vue.default.mixin({
     beforeCreate: function beforeCreate() {
       if (!this.$options.mpType) {
         return;
       }
-
       this.mpType = this.$options.mpType;
-
       this.$mp = _defineProperty({
         data: {} },
       this.mpType, this.$options.mpInstance);
-
-
-      this.$scope = this.$options.mpInstance;
 
       delete this.$options.mpType;
       delete this.$options.mpInstance;
 
       if (this.mpType !== 'app') {
-        initRefs(this);
+        {// 头条的 selectComponent 竟然是异步的
+          initRefs(this);
+        }
         initMocks(this, mocks);
       }
     },
@@ -958,7 +2193,7 @@ function createPage(vueOptions) {
 
   initHooks(pageOptions.methods, hooks$1);
 
-  return initPage(pageOptions, vueOptions);
+  return Component(pageOptions);
 }
 
 function initVm$2(VueComponent) {
@@ -966,18 +2201,16 @@ function initVm$2(VueComponent) {
     return;
   }
 
-  var properties = this.properties;
-
   var options = {
     mpType: 'component',
     mpInstance: this,
-    propsData: properties };
+    propsData: this.properties };
 
   // 初始化 vue 实例
   this.$vm = new VueComponent(options);
 
   // 处理$slots,$scopedSlots（暂不支持动态变化$slots）
-  var vueSlots = properties.vueSlots;
+  var vueSlots = this.properties.vueSlots;
   if (Array.isArray(vueSlots) && vueSlots.length) {
     var $slots = Object.create(null);
     vueSlots.forEach(function (slotName) {
@@ -993,17 +2226,11 @@ function initVm$2(VueComponent) {
 function createComponent(vueOptions) {
   vueOptions = vueOptions.default || vueOptions;
 
-  var VueComponent;
-  if (isFn(vueOptions)) {
-    VueComponent = vueOptions; // TODO form-field props.name,props.value
-    vueOptions = VueComponent.extendOptions;
-  } else {
-    VueComponent = _vue.default.extend(vueOptions);
-  }
-
   var behaviors = getBehaviors(vueOptions);
 
   var properties = getProperties(vueOptions.props, false, vueOptions.__file);
+
+  var VueComponent = _vue.default.extend(vueOptions);
 
   var componentOptions = {
     options: {
@@ -1049,19 +2276,8 @@ function createComponent(vueOptions) {
 
 
 
-  return initComponent(componentOptions, vueOptions);
+  return Component(componentOptions);
 }
-
-todos.forEach(function (todoApi) {
-  protocols[todoApi] = false;
-});
-
-canIUses.forEach(function (canIUseApi) {
-  var apiName = protocols[canIUseApi] && protocols[canIUseApi].name ? protocols[canIUseApi].name : canIUseApi;
-  if (!wx.canIUse(apiName)) {
-    protocols[canIUseApi] = false;
-  }
-});
 
 var uni = {};
 
@@ -1752,8 +2968,8 @@ if (true) {
 
   formatComponentName = function (vm, includeFile) {
     {
-      if(vm.$scope && vm.$scope.is){
-        return vm.$scope.is
+      if(vm.$mp && vm.$mp[vm.mpType]){
+        return vm.$mp[vm.mpType].is
       }
     }
     if (vm.$root === vm) {
@@ -6559,8 +7775,8 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
-            var mpInstance = vm.$scope;
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            var mpInstance = vm.$mp[vm.mpType];
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
         }
@@ -6580,15 +7796,15 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
-            var mpInstance = vm.$scope;
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+            var mpInstance = vm.$mp[vm.mpType];
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
-            var mpInstance$1 = vm.$scope;
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+            var mpInstance$1 = vm.$mp[vm.mpType];
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
         }
@@ -6647,7 +7863,7 @@ var patch = function(oldVnode, vnode) {
         return
     }
     if (this.mpType === 'page' || this.mpType === 'component') {
-        var mpInstance = this.$scope;
+        var mpInstance = this.$mp[this.mpType];
         var data = cloneWithData(this);
         data.__webviewId__ = mpInstance.data.__webviewId__;
         var mpData = Object.create(null);
@@ -6656,7 +7872,7 @@ var patch = function(oldVnode, vnode) {
         });
         var diffData = diff(data, mpData);
         if (Object.keys(diffData).length) {
-            if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
                 console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
                     ']差量更新',
                     JSON.stringify(diffData));
@@ -6829,8 +8045,8 @@ function internalMixin(Vue) {
     var oldEmit = Vue.prototype.$emit;
 
     Vue.prototype.$emit = function(event) {
-        if (this.$scope && event) {
-            this.$scope['triggerEvent'](event, {
+        if (this.$mp && event) {
+            this.$mp[this.mpType]['triggerEvent'](event, {
                 __args__: toArray(arguments, 1)
             });
         }
@@ -6843,8 +8059,8 @@ function internalMixin(Vue) {
 
     MP_METHODS.forEach(function (method) {
         Vue.prototype[method] = function(args) {
-            if (this.$scope) {
-                return this.$scope[method](args)
+            if (this.$mp) {
+                return this.$mp[this.mpType][method](args)
             }
         };
     });
@@ -6934,7 +8150,6 @@ var LIFECYCLE_HOOKS$1 = [
     'onReachBottom',
     'onTabItemTap',
     'onShareAppMessage',
-    'onResize',
     'onPageScroll',
     'onNavigationBarButtonTap',
     'onBackPress',
@@ -6942,7 +8157,7 @@ var LIFECYCLE_HOOKS$1 = [
     'onNavigationBarSearchInputConfirmed',
     'onNavigationBarSearchInputClicked',
     //Component
-    // 'onReady', // 兼容旧版本，应该移除该事件
+    'onReady', // 兼容旧版本，应该移除该事件
     'onPageShow',
     'onPageHide',
     'onPageResize'
@@ -7135,1289 +8350,6 @@ try {
 
 module.exports = g;
 
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js":
-/*!***************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "D:\\Documents\\HBuilderProjects\\wa-ui\\App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
-
-_vue.default.config.productionTip = false;
-
-_App.default.mpType = 'app';
-
-var app = new _vue.default(_objectSpread({},
-_App.default));
-
-createApp(app).$mount();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createApp"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Fbutton\"}":
-/*!******************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fbutton"} ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _button = _interopRequireDefault(__webpack_require__(/*! ./pages/components/button.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\button.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_button.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Fcolor\"}":
-/*!*****************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fcolor"} ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _color = _interopRequireDefault(__webpack_require__(/*! ./pages/components/color.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\color.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_color.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Ficon\"}":
-/*!****************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Ficon"} ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _icon = _interopRequireDefault(__webpack_require__(/*! ./pages/components/icon.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\icon.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_icon.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Finput\"}":
-/*!*****************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Finput"} ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _input = _interopRequireDefault(__webpack_require__(/*! ./pages/components/input.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\input.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_input.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2FlazyLoad\"}":
-/*!********************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2FlazyLoad"} ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _lazyLoad = _interopRequireDefault(__webpack_require__(/*! ./pages/components/lazyLoad.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\lazyLoad.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_lazyLoad.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Fmessage\"}":
-/*!*******************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fmessage"} ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _message = _interopRequireDefault(__webpack_require__(/*! ./pages/components/message.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\message.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_message.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2FnativeBar\"}":
-/*!*********************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2FnativeBar"} ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _nativeBar = _interopRequireDefault(__webpack_require__(/*! ./pages/components/nativeBar.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\nativeBar.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_nativeBar.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Fnotice\"}":
-/*!******************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fnotice"} ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _notice = _interopRequireDefault(__webpack_require__(/*! ./pages/components/notice.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\notice.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_notice.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Fpopup\"}":
-/*!*****************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fpopup"} ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _popup = _interopRequireDefault(__webpack_require__(/*! ./pages/components/popup.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\popup.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_popup.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Fselect\"}":
-/*!******************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fselect"} ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _select = _interopRequireDefault(__webpack_require__(/*! ./pages/components/select.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\select.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_select.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fcomponents%2Fswitch\"}":
-/*!******************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fcomponents%2Fswitch"} ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _switch = _interopRequireDefault(__webpack_require__(/*! ./pages/components/switch.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\components\\switch.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_switch.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fouter%2Findex\"}":
-/*!************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fouter%2Findex"} ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/outer/index.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\outer\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_index.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\main.js?{\"page\":\"pages%2Fouter%2Fuser\"}":
-/*!***********************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/main.js?{"page":"pages%2Fouter%2Fuser"} ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _user = _interopRequireDefault(__webpack_require__(/*! ./pages/outer/user.vue */ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages\\outer\\user.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_user.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\pages.json":
-/*!******************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/pages.json ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\static\\json\\color.js":
-/*!****************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/static/json/color.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.gradualColor = exports.lightColor = exports.brightColor = void 0;var brightColor = [
-{
-  name: '--red',
-  value: '#e54d42' },
-{
-  name: "--orange",
-  value: "#f37b1d" },
-
-{
-  name: "--yellow",
-  value: "#fbbd08" },
-
-{
-  name: '--olive',
-  value: '#8dc63f' },
-{
-  name: "--green",
-  value: "#39b54a" },
-
-{
-  name: "--cyan",
-  value: "#1cbbb4" },
-
-{
-  name: "--blue",
-  value: "#0081ff" },
-{
-  name: "--purple",
-  value: "#6739b6" },
-{
-  name: "--mauve",
-  value: "#9c26b0" },
-{
-  name: "--pink",
-  value: "#e03997" },
-{
-  name: "--brown",
-  value: "#a5673f" },
-{
-  name: "--grey",
-  value: "#8799a3" },
-
-{
-  name: "--gray",
-  value: "#aaaaaa" },
-{
-  name: "--black",
-  value: "#333333" }];exports.brightColor = brightColor;
-
-
-
-
-var lightColor = [
-{
-  name: '--redLight',
-  value: '#fadbd9' },
-{
-  name: "--orangeLight",
-  value: "#fde6d2" },
-
-{
-  name: "--yellowLight",
-  value: "#fef2ce" },
-{
-  name: '--oliveLight',
-  value: '#e8f4d9' },
-{
-  name: "--greenLight",
-  value: "#d7f0db" },
-
-{
-  name: "--cyanLight",
-  value: "#d2f1f0" },
-{
-  name: '--blueLight',
-  value: '#cce6ff' },
-{
-  name: "--greenLight",
-  value: "#e1d7f0" },
-{
-  name: "--mauveLight",
-  value: "#ebd4ef" },
-{
-  name: '--pinkLight',
-  value: '#f9d7ea' },
-{
-  name: "--brownLight",
-  value: "#ede1d9" },
-{
-  name: "--greyLight",
-  value: "#e7ebed" }];exports.lightColor = lightColor;
-
-
-
-
-var gradualColor = [
-{
-  name: '--gradualRed',
-  value: 'linear-gradient(45deg, #f43f3b, #ec008c)' },
-{
-  name: "--gradualOrange",
-  value: "linear-gradient(45deg, #ff9700, #ed1c24)" },
-{
-  name: "--gradualGreen",
-  value: "linear-gradient(45deg, #39b54a, #8dc63f)" },
-{
-  name: '--gradualPurple',
-  value: 'linear-gradient(45deg, #9000ff, #5e00ff)' },
-{
-  name: "--gradualPink",
-  value: "linear-gradient(45deg, #ec008c, #6739b6)" },
-{
-  name: "--gradualBlue",
-  value: "linear-gradient(45deg, #0081ff, #1cbbb4)" }];exports.gradualColor = gradualColor;
-
-/***/ }),
-
-/***/ "D:\\Documents\\HBuilderProjects\\wa-ui\\static\\json\\icon.js":
-/*!***************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/wa-ui/static/json/icon.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var ICONJSON = [{
-  name: 'appreciate',
-  isShow: true },
-{
-  name: 'check',
-  isShow: true },
-{
-  name: 'close',
-  isShow: true },
-{
-  name: 'edit',
-  isShow: true },
-{
-  name: 'emoji',
-  isShow: true },
-{
-  name: 'favorfill',
-  isShow: true },
-{
-  name: 'favor',
-  isShow: true },
-{
-  name: 'loading',
-  isShow: true },
-{
-  name: 'locationfill',
-  isShow: true },
-{
-  name: 'location',
-  isShow: true },
-{
-  name: 'phone',
-  isShow: true },
-{
-  name: 'roundcheckfill',
-  isShow: true },
-{
-  name: 'roundcheck',
-  isShow: true },
-{
-  name: 'roundclosefill',
-  isShow: true },
-{
-  name: 'roundclose',
-  isShow: true },
-{
-  name: 'roundrightfill',
-  isShow: true },
-{
-  name: 'roundright',
-  isShow: true },
-{
-  name: 'search',
-  isShow: true },
-{
-  name: 'taxi',
-  isShow: true },
-{
-  name: 'timefill',
-  isShow: true },
-{
-  name: 'time',
-  isShow: true },
-{
-  name: 'unfold',
-  isShow: true },
-{
-  name: 'warnfill',
-  isShow: true },
-{
-  name: 'warn',
-  isShow: true },
-{
-  name: 'camerafill',
-  isShow: true },
-{
-  name: 'camera',
-  isShow: true },
-{
-  name: 'commentfill',
-  isShow: true },
-{
-  name: 'comment',
-  isShow: true },
-{
-  name: 'likefill',
-  isShow: true },
-{
-  name: 'like',
-  isShow: true },
-{
-  name: 'notificationfill',
-  isShow: true },
-{
-  name: 'notification',
-  isShow: true },
-{
-  name: 'order',
-  isShow: true },
-{
-  name: 'samefill',
-  isShow: true },
-{
-  name: 'same',
-  isShow: true },
-{
-  name: 'deliver',
-  isShow: true },
-{
-  name: 'evaluate',
-  isShow: true },
-{
-  name: 'pay',
-  isShow: true },
-{
-  name: 'send',
-  isShow: true },
-{
-  name: 'shop',
-  isShow: true },
-{
-  name: 'ticket',
-  isShow: true },
-{
-  name: 'back',
-  isShow: true },
-{
-  name: 'cascades',
-  isShow: true },
-{
-  name: 'discover',
-  isShow: true },
-{
-  name: 'list',
-  isShow: true },
-{
-  name: 'more',
-  isShow: true },
-{
-  name: 'scan',
-  isShow: true },
-{
-  name: 'settings',
-  isShow: true },
-{
-  name: 'questionfill',
-  isShow: true },
-{
-  name: 'question',
-  isShow: true },
-{
-  name: 'shopfill',
-  isShow: true },
-{
-  name: 'form',
-  isShow: true },
-{
-  name: 'pic',
-  isShow: true },
-{
-  name: 'filter',
-  isShow: true },
-{
-  name: 'footprint',
-  isShow: true },
-{
-  name: 'top',
-  isShow: true },
-{
-  name: 'pulldown',
-  isShow: true },
-{
-  name: 'pullup',
-  isShow: true },
-{
-  name: 'right',
-  isShow: true },
-{
-  name: 'refresh',
-  isShow: true },
-{
-  name: 'moreandroid',
-  isShow: true },
-{
-  name: 'deletefill',
-  isShow: true },
-{
-  name: 'refund',
-  isShow: true },
-{
-  name: 'cart',
-  isShow: true },
-{
-  name: 'qrcode',
-  isShow: true },
-{
-  name: 'remind',
-  isShow: true },
-{
-  name: 'delete',
-  isShow: true },
-{
-  name: 'profile',
-  isShow: true },
-{
-  name: 'home',
-  isShow: true },
-{
-  name: 'cartfill',
-  isShow: true },
-{
-  name: 'discoverfill',
-  isShow: true },
-{
-  name: 'homefill',
-  isShow: true },
-{
-  name: 'message',
-  isShow: true },
-{
-  name: 'addressbook',
-  isShow: true },
-{
-  name: 'link',
-  isShow: true },
-{
-  name: 'lock',
-  isShow: true },
-{
-  name: 'unlock',
-  isShow: true },
-{
-  name: 'vip',
-  isShow: true },
-{
-  name: 'weibo',
-  isShow: true },
-{
-  name: 'activity',
-  isShow: true },
-{
-  name: 'friendaddfill',
-  isShow: true },
-{
-  name: 'friendadd',
-  isShow: true },
-{
-  name: 'friendfamous',
-  isShow: true },
-{
-  name: 'friend',
-  isShow: true },
-{
-  name: 'goods',
-  isShow: true },
-{
-  name: 'selection',
-  isShow: true },
-{
-  name: 'explore',
-  isShow: true },
-{
-  name: 'present',
-  isShow: true },
-{
-  name: 'squarecheckfill',
-  isShow: true },
-{
-  name: 'square',
-  isShow: true },
-{
-  name: 'squarecheck',
-  isShow: true },
-{
-  name: 'round',
-  isShow: true },
-{
-  name: 'roundaddfill',
-  isShow: true },
-{
-  name: 'roundadd',
-  isShow: true },
-{
-  name: 'add',
-  isShow: true },
-{
-  name: 'notificationforbidfill',
-  isShow: true },
-{
-  name: 'explorefill',
-  isShow: true },
-{
-  name: 'fold',
-  isShow: true },
-{
-  name: 'game',
-  isShow: true },
-{
-  name: 'redpacket',
-  isShow: true },
-{
-  name: 'selectionfill',
-  isShow: true },
-{
-  name: 'similar',
-  isShow: true },
-{
-  name: 'appreciatefill',
-  isShow: true },
-{
-  name: 'infofill',
-  isShow: true },
-{
-  name: 'info',
-  isShow: true },
-{
-  name: 'forwardfill',
-  isShow: true },
-{
-  name: 'forward',
-  isShow: true },
-{
-  name: 'rechargefill',
-  isShow: true },
-{
-  name: 'recharge',
-  isShow: true },
-{
-  name: 'vipcard',
-  isShow: true },
-{
-  name: 'voice',
-  isShow: true },
-{
-  name: 'voicefill',
-  isShow: true },
-{
-  name: 'friendfavor',
-  isShow: true },
-{
-  name: 'wifi',
-  isShow: true },
-{
-  name: 'share',
-  isShow: true },
-{
-  name: 'wefill',
-  isShow: true },
-{
-  name: 'we',
-  isShow: true },
-{
-  name: 'lightauto',
-  isShow: true },
-{
-  name: 'lightforbid',
-  isShow: true },
-{
-  name: 'lightfill',
-  isShow: true },
-{
-  name: 'camerarotate',
-  isShow: true },
-{
-  name: 'light',
-  isShow: true },
-{
-  name: 'barcode',
-  isShow: true },
-{
-  name: 'flashlightclose',
-  isShow: true },
-{
-  name: 'flashlightopen',
-  isShow: true },
-{
-  name: 'searchlist',
-  isShow: true },
-{
-  name: 'service',
-  isShow: true },
-{
-  name: 'sort',
-  isShow: true },
-{
-  name: 'down',
-  isShow: true },
-{
-  name: 'mobile',
-  isShow: true },
-{
-  name: 'mobilefill',
-  isShow: true },
-{
-  name: 'copy',
-  isShow: true },
-{
-  name: 'countdownfill',
-  isShow: true },
-{
-  name: 'countdown',
-  isShow: true },
-{
-  name: 'noticefill',
-  isShow: true },
-{
-  name: 'notice',
-  isShow: true },
-{
-  name: 'upstagefill',
-  isShow: true },
-{
-  name: 'upstage',
-  isShow: true },
-{
-  name: 'babyfill',
-  isShow: true },
-{
-  name: 'baby',
-  isShow: true },
-{
-  name: 'brandfill',
-  isShow: true },
-{
-  name: 'brand',
-  isShow: true },
-{
-  name: 'choicenessfill',
-  isShow: true },
-{
-  name: 'choiceness',
-  isShow: true },
-{
-  name: 'clothesfill',
-  isShow: true },
-{
-  name: 'clothes',
-  isShow: true },
-{
-  name: 'creativefill',
-  isShow: true },
-{
-  name: 'creative',
-  isShow: true },
-{
-  name: 'female',
-  isShow: true },
-{
-  name: 'keyboard',
-  isShow: true },
-{
-  name: 'male',
-  isShow: true },
-{
-  name: 'newfill',
-  isShow: true },
-{
-  name: 'new',
-  isShow: true },
-{
-  name: 'pullleft',
-  isShow: true },
-{
-  name: 'pullright',
-  isShow: true },
-{
-  name: 'rankfill',
-  isShow: true },
-{
-  name: 'rank',
-  isShow: true },
-{
-  name: 'bad',
-  isShow: true },
-{
-  name: 'cameraadd',
-  isShow: true },
-{
-  name: 'focus',
-  isShow: true },
-{
-  name: 'friendfill',
-  isShow: true },
-{
-  name: 'cameraaddfill',
-  isShow: true },
-{
-  name: 'apps',
-  isShow: true },
-{
-  name: 'paintfill',
-  isShow: true },
-{
-  name: 'paint',
-  isShow: true },
-{
-  name: 'picfill',
-  isShow: true },
-{
-  name: 'refresharrow',
-  isShow: true },
-{
-  name: 'colorlens',
-  isShow: true },
-{
-  name: 'markfill',
-  isShow: true },
-{
-  name: 'mark',
-  isShow: true },
-{
-  name: 'presentfill',
-  isShow: true },
-{
-  name: 'repeal',
-  isShow: true },
-{
-  name: 'album',
-  isShow: true },
-{
-  name: 'peoplefill',
-  isShow: true },
-{
-  name: 'people',
-  isShow: true },
-{
-  name: 'servicefill',
-  isShow: true },
-{
-  name: 'repair',
-  isShow: true },
-{
-  name: 'file',
-  isShow: true },
-{
-  name: 'repairfill',
-  isShow: true },
-{
-  name: 'taoxiaopu',
-  isShow: true },
-{
-  name: 'weixin',
-  isShow: true },
-{
-  name: 'attentionfill',
-  isShow: true },
-{
-  name: 'attention',
-  isShow: true },
-{
-  name: 'commandfill',
-  isShow: true },
-{
-  name: 'command',
-  isShow: true },
-{
-  name: 'communityfill',
-  isShow: true },
-{
-  name: 'community',
-  isShow: true },
-{
-  name: 'read',
-  isShow: true },
-{
-  name: 'calendar',
-  isShow: true },
-{
-  name: 'cut',
-  isShow: true },
-{
-  name: 'magic',
-  isShow: true },
-{
-  name: 'backwardfill',
-  isShow: true },
-{
-  name: 'playfill',
-  isShow: true },
-{
-  name: 'stop',
-  isShow: true },
-{
-  name: 'tagfill',
-  isShow: true },
-{
-  name: 'tag',
-  isShow: true },
-{
-  name: 'group',
-  isShow: true },
-{
-  name: 'all',
-  isShow: true },
-{
-  name: 'backdelete',
-  isShow: true },
-{
-  name: 'hotfill',
-  isShow: true },
-{
-  name: 'hot',
-  isShow: true },
-{
-  name: 'post',
-  isShow: true },
-{
-  name: 'radiobox',
-  isShow: true },
-{
-  name: 'rounddown',
-  isShow: true },
-{
-  name: 'upload',
-  isShow: true },
-{
-  name: 'writefill',
-  isShow: true },
-{
-  name: 'write',
-  isShow: true },
-{
-  name: 'radioboxfill',
-  isShow: true },
-{
-  name: 'punch',
-  isShow: true },
-{
-  name: 'shake',
-  isShow: true },
-{
-  name: 'move',
-  isShow: true },
-{
-  name: 'safe',
-  isShow: true },
-{
-  name: 'activityfill',
-  isShow: true },
-{
-  name: 'crownfill',
-  isShow: true },
-{
-  name: 'crown',
-  isShow: true },
-{
-  name: 'goodsfill',
-  isShow: true },
-{
-  name: 'messagefill',
-  isShow: true },
-{
-  name: 'profilefill',
-  isShow: true },
-{
-  name: 'sound',
-  isShow: true },
-{
-  name: 'sponsorfill',
-  isShow: true },
-{
-  name: 'sponsor',
-  isShow: true },
-{
-  name: 'upblock',
-  isShow: true },
-{
-  name: 'weblock',
-  isShow: true },
-{
-  name: 'weunblock',
-  isShow: true },
-{
-  name: 'my',
-  isShow: true },
-{
-  name: 'myfill',
-  isShow: true },
-{
-  name: 'emojifill',
-  isShow: true },
-{
-  name: 'emojiflashfill',
-  isShow: true },
-{
-  name: 'flashbuyfill',
-  isShow: true },
-{
-  name: 'text',
-  isShow: true },
-{
-  name: 'goodsfavor',
-  isShow: true },
-{
-  name: 'musicfill',
-  isShow: true },
-{
-  name: 'musicforbidfill',
-  isShow: true },
-{
-  name: 'card',
-  isShow: true },
-{
-  name: 'triangledownfill',
-  isShow: true },
-{
-  name: 'triangleupfill',
-  isShow: true },
-{
-  name: 'roundleftfill-copy',
-  isShow: true },
-{
-  name: 'font',
-  isShow: true },
-{
-  name: 'title',
-  isShow: true },
-{
-  name: 'recordfill',
-  isShow: true },
-{
-  name: 'record',
-  isShow: true },
-{
-  name: 'cardboardfill',
-  isShow: true },
-{
-  name: 'cardboard',
-  isShow: true },
-{
-  name: 'formfill',
-  isShow: true },
-{
-  name: 'coin',
-  isShow: true },
-{
-  name: 'cardboardforbid',
-  isShow: true },
-{
-  name: 'circlefill',
-  isShow: true },
-{
-  name: 'circle',
-  isShow: true },
-{
-  name: 'attentionforbid',
-  isShow: true },
-{
-  name: 'attentionforbidfill',
-  isShow: true },
-{
-  name: 'attentionfavorfill',
-  isShow: true },
-{
-  name: 'attentionfavor',
-  isShow: true },
-{
-  name: 'titles',
-  isShow: true },
-{
-  name: 'icloading',
-  isShow: true },
-{
-  name: 'full',
-  isShow: true },
-{
-  name: 'mail',
-  isShow: true },
-{
-  name: 'peoplelist',
-  isShow: true },
-{
-  name: 'goodsnewfill',
-  isShow: true },
-{
-  name: 'goodsnew',
-  isShow: true },
-{
-  name: 'medalfill',
-  isShow: true },
-{
-  name: 'medal',
-  isShow: true },
-{
-  name: 'newsfill',
-  isShow: true },
-{
-  name: 'newshotfill',
-  isShow: true },
-{
-  name: 'newshot',
-  isShow: true },
-{
-  name: 'news',
-  isShow: true },
-{
-  name: 'videofill',
-  isShow: true },
-{
-  name: 'video',
-  isShow: true },
-{
-  name: 'exit',
-  isShow: true },
-{
-  name: 'skinfill',
-  isShow: true },
-{
-  name: 'skin',
-  isShow: true },
-{
-  name: 'moneybagfill',
-  isShow: true },
-{
-  name: 'usefullfill',
-  isShow: true },
-{
-  name: 'usefull',
-  isShow: true },
-{
-  name: 'moneybag',
-  isShow: true },
-{
-  name: 'redpacket_fill',
-  isShow: true },
-{
-  name: 'subscription',
-  isShow: true },
-{
-  name: 'loading1',
-  isShow: true },
-{
-  name: 'github',
-  isShow: true },
-{
-  name: 'global',
-  isShow: true },
-{
-  name: 'settingsfill',
-  isShow: true },
-{
-  name: 'back_android',
-  isShow: true },
-{
-  name: 'expressman',
-  isShow: true },
-{
-  name: 'evaluate_fill',
-  isShow: true },
-{
-  name: 'group_fill',
-  isShow: true },
-{
-  name: 'play_forward_fill',
-  isShow: true },
-{
-  name: 'deliver_fill',
-  isShow: true },
-{
-  name: 'notice_forbid_fill',
-  isShow: true },
-{
-  name: 'fork',
-  isShow: true },
-{
-  name: 'pick',
-  isShow: true },
-{
-  name: 'wenzi',
-  isShow: true },
-{
-  name: 'ellipse',
-  isShow: true },
-{
-  name: 'qr_code',
-  isShow: true },
-{
-  name: 'dianhua',
-  isShow: true },
-{
-  name: 'icon',
-  isShow: true },
-{
-  name: 'loading2',
-  isShow: true },
-{
-  name: 'btn',
-  isShow: true }];var _default =
-
-ICONJSON;exports.default = _default;
 
 /***/ })
 
